@@ -3,6 +3,8 @@
 > Một case study mô phỏng công ty thật, làm theo nhóm 3 vai: **Data Analyst (DA)**, **Business Analyst (BA)**, **Business Development (BD)**.
 > Mỗi vai có phần việc riêng, nhưng **kết luận cuối cùng chỉ đúng khi cả 3 vai ghép lại với nhau**.
 > Đề chỉ cho bối cảnh và dữ liệu. Đáp án là của nhóm bạn.
+>
+> 📦 Repo còn có đề thứ hai dùng **dữ liệu thật**: [`olist-ecommerce/`](olist-ecommerce/README.md) — sàn TMĐT Olist (Brazil).
 
 ---
 

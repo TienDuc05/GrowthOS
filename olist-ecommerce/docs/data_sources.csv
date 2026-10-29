@@ -1,0 +1,3 @@
+module,dataset,original_source,delivery_method,storage_folder,relation_policy,license_note
+marketing_funnel,Olist Marketing Funnel,https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist,Kagglehub public dataset download,data/raw/olist_marketing,join with Olist via seller_id,Kaggle lists CC BY-NC-SA 4.0; check reuse terms
+online_orders,Olist Brazilian E-Commerce,https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce,Kagglehub public dataset download,data/raw/olist_ecommerce,join with Olist Marketing via seller_id,Review original Kaggle license before redistribution
