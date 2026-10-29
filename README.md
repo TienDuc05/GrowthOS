@@ -40,10 +40,7 @@ Khách đến từ 4 kênh: **Ads** (quảng cáo Facebook/Google), **Organic** 
 
 ## 2. Dữ liệu
 
-Dữ liệu giả lập từ **01/2024 đến 12/2025**, nằm trong `data/raw/` (đã sinh sẵn, mở được bằng Excel/Google Sheets/SQL/Python).
-
-> ⚠️ **Không đọc `data/generate_data.py`** — file đó chứa các quy luật được cài vào dữ liệu, đọc là lộ đáp án.
-> Nếu muốn sinh lại dữ liệu: `python3 data/generate_data.py`.
+Dữ liệu giả lập từ **01/2024 đến 12/2025**, nằm trong `data/raw/` (mở được bằng Excel/Google Sheets/SQL/Python).
 
 | File | Mỗi dòng là | Cột chính |
 |---|---|---|
@@ -147,7 +144,6 @@ Ghi rõ đây là **case study mô phỏng** (dữ liệu giả lập) — trung
 ```
 data/
   raw/                 # dữ liệu gốc (không sửa)
-  generate_data.py     # script sinh dữ liệu (đừng đọc!)
 da/                    # SQL, notebook, dashboard
 ba/                    # BRD, user story, sơ đồ BPMN
 bd/                    # market sizing, GTM plan, mô hình tài chính
