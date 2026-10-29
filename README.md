@@ -1,106 +1,126 @@
-# GrowthOS — Case study DA × BA × BD
+# Olist E-Commerce — Case study DA × BA × BD
 
-> Một case study mô phỏng công ty thật, làm theo nhóm 3 vai: **Data Analyst (DA)**, **Business Analyst (BA)**, **Business Development (BD)**.
-> Mỗi vai có phần việc riêng, nhưng **kết luận cuối cùng chỉ đúng khi cả 3 vai ghép lại với nhau**.
-> Đề chỉ cho bối cảnh và dữ liệu. Đáp án là của nhóm bạn.
->
-> 📦 Repo còn có đề thứ hai dùng **dữ liệu thật**: [`olist-ecommerce/`](olist-ecommerce/README.md) — sàn TMĐT Olist (Brazil).
+> Case study dựa trên **dữ liệu thật, công khai** của Olist (sàn thương mại điện tử Brazil, 2016–2018), làm theo nhóm 3 vai: **Data Analyst (DA)**, **Business Analyst (BA)**, **Business Development (BD)**.
+> Đề chỉ cho bối cảnh, dữ liệu và câu hỏi. Đáp án là của nhóm bạn.
 
 ---
 
 ## 1. Bối cảnh
 
-**GrowthOS** (công ty giả lập) là startup SaaS Việt Nam, bán phần mềm **quản lý bán hàng (POS) + kho** cho cửa hàng nhỏ và vừa:
-tiệm tạp hoá/bán lẻ, quán cà phê/nhà hàng (F&B), spa/salon (Beauty), nhà thuốc (Pharmacy).
+**Olist** là công ty Brazil giúp người bán nhỏ (seller) đưa sản phẩm lên các sàn thương mại điện tử lớn thông qua một "cửa hàng" chung.
+Olist kiếm tiền từ seller, nên có hai bài toán song song:
+- **Phía người mua:** đơn hàng phải giao đúng hẹn, khách hài lòng và quay lại mua.
+- **Phía người bán:** đội sales phải tuyển được seller tốt, và seller sau khi vào phải bán được hàng.
 
-| Gói | Giá / tháng | Dành cho |
-|---|---|---|
-| Basic | 199.000đ (điều chỉnh từ 04/2025) | 1 cửa hàng |
-| Pro | 499.000đ × số cửa hàng | 2–4 cửa hàng |
-| Enterprise | 1.200.000đ × số cửa hàng | chuỗi từ 5 cửa hàng |
-
-Khách đến từ 4 kênh: **Ads** (quảng cáo Facebook/Google), **Organic** (SEO, giới thiệu), **Sales** (đội sale gọi trực tiếp), **Partner** (ngân hàng, nhà phân phối, công ty kế toán giới thiệu khách, nhận hoa hồng).
-
-### Email của CEO gửi nhóm bạn (tháng 01/2026)
+### Email của Head of Growth gửi nhóm bạn (giả định, đầu tháng 09/2018)
 
 > Chào cả nhóm,
 >
-> Năm 2025 MRR vẫn tăng, nhưng anh thấy không ổn: chi marketing tăng mạnh mà số khách mới không tăng tương xứng,
-> giữa năm có giai đoạn khách huỷ nhiều bất thường, và đội sale than là mất deal chuỗi lớn vì "thiếu tính năng".
+> Số đơn tăng mạnh từ 2017 nhưng ban lãnh đạo lo ba chuyện:
+> trải nghiệm giao hàng và đánh giá của khách, khả năng giữ chân người mua, và hiệu quả của đội tuyển seller (tốn công nhưng không rõ seller nào thực sự mang lại doanh số).
 >
-> Hội đồng quản trị muốn trong **2 quý tới** công ty chọn **một trọng tâm tăng trưởng** để dồn nguồn lực. Ba hướng đang được bàn:
-> 1. Giảm churn (giữ khách đang có),
-> 2. Đẩy mạnh kênh/phân khúc mới,
-> 3. Đầu tư sản phẩm để thắng deal chuỗi lớn.
+> Cho 2 quý tới, công ty cần chọn **một trọng tâm** để dồn nguồn lực:
+> 1. Cải thiện vận hành giao hàng & trải nghiệm khách,
+> 2. Tăng mua lại / giá trị vòng đời người mua,
+> 3. Tối ưu tuyển seller (đúng phân khúc, đúng kênh).
 >
-> Anh cần các em trả lời: **chuyện gì đã xảy ra năm 2025, vì sao, và GrowthOS nên dồn lực vào đâu**. Có số liệu, có giải pháp cụ thể, có kế hoạch triển khai.
-> Ngân sách bổ sung tối đa: **1,5 tỷ đồng** cho 2 quý.
->
-> Anh Tuấn — CEO
+> Anh cần các em trả lời: **chuyện gì đang xảy ra, vì sao, và Olist nên dồn lực vào đâu**, kèm số liệu, giải pháp và kế hoạch triển khai.
+> Ngân sách bổ sung tối đa: **R$ 2 triệu** cho 2 quý.
 
 ---
 
 ## 2. Dữ liệu
 
-Dữ liệu giả lập từ **01/2024 đến 12/2025**, nằm trong `data/raw/` (mở được bằng Excel/Google Sheets/SQL/Python).
+Hai bộ dữ liệu gốc trên Kaggle, **nối được với nhau thật** qua `seller_id`:
 
-| File | Mỗi dòng là | Cột chính |
+| Bộ | Nội dung | Link |
 |---|---|---|
-| `customers.csv` | 1 khách hàng | `customer_id`, `signup_date`, `segment`, `city`, `city_tier` (1 = thành phố lớn → 3 = tỉnh), `store_count_at_signup`, `acquisition_channel`, `partner_id`, `onboarding_completed` (0/1), `payment_method` |
-| `subscriptions_monthly.csv` | 1 khách × 1 tháng | `month`, `plan`, `store_count`, `mrr_vnd`, `payment_failed` (0/1), `status` (`active` / `churned` = huỷ trong tháng đó) |
-| `usage_monthly.csv` | 1 khách × 1 tháng | `active_days`, `transactions`, `features_used`, `staff_accounts` |
-| `support_tickets.csv` | 1 ticket hỗ trợ | `created_date`, `category`, `resolution_hours`, `csat` (1–5) |
-| `marketing_spend.csv` | 1 kênh × 1 tháng | `channel`, `spend_vnd` (riêng Partner = hoa hồng + chi phí quản lý) |
-| `leads.csv` | 1 deal chuỗi (pipeline BD, 2025) | `source`, `segment`, `store_count`, `stage`, `est_mrr_vnd`, `closed_date`, `lost_reason`, `owner` |
-| `partners.csv` | 1 đối tác | `partner_id`, `name`, `type`, `city`, `commission_rate` |
+| Olist Brazilian E-Commerce | ~100 nghìn đơn hàng 2016–2018, 9 bảng | https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce |
+| Olist Marketing Funnel | ~8 nghìn lead seller (MQL) và các deal đã chốt | https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist |
 
-Dữ liệu có chủ ý **không sạch hoàn toàn về mặt nghiệp vụ** — việc định nghĩa chỉ số (churn tính thế nào, CAC gồm gì, LTV ước lượng ra sao…) là một phần của bài.
+### Bảng chính
+
+| Schema.bảng | Mỗi dòng là | Khoá nối |
+|---|---|---|
+| `olist_ecommerce.orders` | 1 đơn hàng, kèm các mốc thời gian: mua, duyệt, giao cho vận chuyển, giao tới khách, ngày dự kiến | `order_id`, `customer_id` |
+| `olist_ecommerce.order_items` | 1 sản phẩm trong đơn (giá, phí ship) | `order_id`, `product_id`, `seller_id` |
+| `olist_ecommerce.order_payments` | 1 lần thanh toán (loại, số kỳ trả góp) | `order_id` |
+| `olist_ecommerce.order_reviews` | 1 đánh giá (điểm 1–5, bình luận tiếng Bồ Đào Nha) | `order_id` |
+| `olist_ecommerce.customers` | 1 `customer_id` theo đơn; người mua thật là `customer_unique_id` | `customer_id` |
+| `olist_ecommerce.sellers` | 1 seller (thành phố, bang) | `seller_id` |
+| `olist_ecommerce.products` | 1 sản phẩm (danh mục, kích thước, cân nặng) | `product_id` |
+| `olist_ecommerce.geolocation` | toạ độ theo mã bưu chính | `zip_code_prefix` |
+| `olist_ecommerce.category_translation` | tên danh mục Bồ Đào Nha → tiếng Anh | `product_category_name` |
+| `olist_marketing.marketing_qualified_leads` | 1 lead seller (ngày liên hệ, kênh `origin`) | `mql_id` |
+| `olist_marketing.closed_deals` | 1 deal đã chốt (phân khúc, loại lead, quy mô…) | `mql_id`, `seller_id` |
+| `marts.olist_seller_growth` | (view dựng sẵn) seller đã chốt + kênh marketing + doanh số sau khi vào sàn | `seller_id` |
+
+> Lưu ý khi phân tích: `customer_id` **không** phải người mua duy nhất; dữ liệu marketing chỉ phủ khoảng 06/2017–05/2018; hai đầu chuỗi thời gian đơn hàng có rất ít dữ liệu. Tự kiểm tra và ghi rõ cách xử lý của nhóm.
+
+### Cách lấy dữ liệu
+
+Cần Python 3.10+ và tài khoản Kaggle (đã cấu hình API token cho `kagglehub`). Chạy ở thư mục gốc của repo:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+```bash
+python scripts/download_data.py
+```
+
+```bash
+python scripts/build_database.py
+```
+
+Windows: nhấp đúp `RUN_WINDOWS.bat`.
+Không dùng được Kaggle API thì tải ZIP thủ công từ 2 link trên, giải nén CSV vào `data/raw/olist_ecommerce/` và `data/raw/olist_marketing/`, rồi chạy `build_database.py`.
+
+Kết quả: `data/processed/olist.duckdb` — truy vấn bằng DuckDB/Python, hoặc xuất bảng sang CSV cho Excel/Power BI. Ví dụ truy vấn: `sql/analysis_queries.sql`.
 
 ---
 
 ## 3. Nhiệm vụ theo vai
 
-### 📊 DA — "Chuyện gì đã xảy ra?"
-1. Xây bộ **chỉ số sức khoẻ**: MRR, tăng trưởng MRR (new / expansion / churned), số khách active, logo churn & revenue churn, ARPA.
-2. **Cohort retention** theo tháng đăng ký; so sánh theo `segment`, `city_tier`, `acquisition_channel`, `onboarding_completed`.
-3. **CAC và LTV theo kênh** → kênh nào đáng tiền, kênh nào đang "đốt" tiền.
-4. Tìm và giải thích **các điểm bất thường** trong năm 2025 (có bao nhiêu? xảy ra khi nào? nhóm khách nào bị ảnh hưởng?).
-5. Tìm **tín hiệu sớm** dự báo khách sắp huỷ (từ usage, ticket, thanh toán…). Bonus: model churn đơn giản + đánh giá.
-6. Đầu ra: **dashboard** (Power BI / Tableau / Looker Studio / Metabase…) + notebook/SQL có thể chạy lại.
+### 📊 DA — "Chuyện gì đang xảy ra?"
+1. Bộ **chỉ số tổng quan** theo tháng: số đơn, GMV, AOV, số người mua, số seller hoạt động; theo bang và danh mục.
+2. **Giao hàng:** thời gian giao thực tế so với ngày hứa, tỉ lệ giao trễ; trễ ở khâu nào (duyệt đơn, seller gửi hàng, vận chuyển); khác biệt theo vùng, danh mục, seller.
+3. **Đánh giá:** điểm review liên quan thế nào đến giao hàng, phí ship, danh mục, seller?
+4. **Giữ chân người mua:** tỉ lệ mua lại, cohort retention, phân khúc RFM — dùng đúng `customer_unique_id`.
+5. **Seller:** phân bố doanh số giữa các seller; seller nào kéo điểm review xuống.
+6. Đầu ra: **dashboard** + notebook/SQL chạy lại được.
 
 ### 🧩 BA — "Vì sao, và sửa thế nào?"
-1. Từ phát hiện của DA, làm **phân tích nguyên nhân gốc** (fishbone / 5 Whys) cho từng vấn đề lớn.
-2. Vẽ **customer journey** từ đăng ký → onboarding → sử dụng → gia hạn/huỷ; vẽ **quy trình hiện tại (As-Is) và đề xuất (To-Be)** bằng BPMN cho ít nhất 1 quy trình (ví dụ onboarding, xử lý ticket, thu tiền).
-3. Từ `lost_reason` trong pipeline và `category` của ticket, viết **yêu cầu sản phẩm**: 1 tài liệu BRD/PRD ngắn, ≥ 8 user story có acceptance criteria, ưu tiên bằng MoSCoW hoặc RICE.
-4. Đề xuất **chính sách** cho các vấn đề không phải lỗi sản phẩm (giá, thanh toán, CSKH…) và đánh giá tác động.
-5. Đầu ra: tài liệu phân tích + sơ đồ quy trình + backlog yêu cầu.
+1. Vẽ **quy trình đơn hàng As-Is** (đặt → duyệt → seller đóng gói → giao vận chuyển → nhận hàng → đánh giá) bằng BPMN, gắn số liệu thời gian của DA vào từng bước.
+2. **Root cause** cho vấn đề trải nghiệm lớn nhất (fishbone / 5 Whys), có bằng chứng số liệu.
+3. **Đọc bình luận review** (dịch hoặc phân loại chủ đề) để biết khách phàn nàn điều gì — kết hợp phân tích định tính với số liệu.
+4. Thiết kế **To-Be** và viết yêu cầu cho 1–2 giải pháp (ví dụ: bảng điểm seller, cách ước tính ngày giao, cảnh báo đơn có nguy cơ trễ): BRD ngắn + ≥ 8 user story có acceptance criteria, ưu tiên bằng RICE/MoSCoW.
+5. Đề xuất **KPI và SLA** cho seller và vận chuyển.
 
 ### 🤝 BD — "Tăng trưởng ở đâu?"
-1. **Ước tính thị trường** (TAM/SAM/SOM) cho 1–2 phân khúc/khu vực tiềm năng nhất — tự tìm số liệu công khai, ghi rõ nguồn và giả định.
-2. Phân tích **pipeline 2025**: win rate, chu kỳ chốt deal, giá trị theo nguồn và phân khúc; đánh giá hiệu quả **từng loại đối tác**.
-3. Đề xuất **chiến lược kênh/đối tác**: mở rộng đối tác loại nào, mô hình hoa hồng ra sao, mục tiêu cụ thể.
-4. Phân tích **2–3 đối thủ thực tế** trên thị trường POS Việt Nam (tính năng, giá, định vị) → GrowthOS định vị thế nào.
-5. Đầu ra: go-to-market plan + mô hình tài chính đơn giản (doanh thu kỳ vọng, chi phí, payback).
+1. **Phễu tuyển seller:** MQL → deal theo kênh `origin`, thời gian chốt, phân khúc, loại lead.
+2. **Chất lượng seller sau khi vào sàn** (dùng `marts.olist_seller_growth`): kênh/phân khúc nào mang lại seller bán được hàng, kênh nào chỉ mang lại số lượng.
+3. **Cơ hội danh mục & vùng:** danh mục/bang nào có cầu lớn nhưng thiếu seller hoặc trải nghiệm kém?
+4. **Chiến lược tuyển seller** cho 2 quý: nhắm phân khúc nào, kênh nào, chỉ tiêu và chi phí.
+5. Tìm hiểu bối cảnh thị trường TMĐT Brazil và 2–3 đối thủ/mô hình tương tự — ghi nguồn.
+6. Đầu ra: kế hoạch go-to-market cho seller + mô hình tài chính đơn giản (chi phí, doanh thu kỳ vọng, payback).
 
 ---
 
 ## 4. Phần giao nhau (bắt buộc làm chung)
 
-Đây là phần quan trọng nhất — nơi thể hiện khả năng phối hợp liên chức năng:
-
-| Giao nhau | Câu hỏi cần trả lời cùng nhau |
+| Giao nhau | Câu hỏi |
 |---|---|
-| DA ∩ BA | Số liệu chỉ ra vấn đề nào, BA chứng minh nguyên nhân bằng quy trình nào? Giải pháp của BA được đo bằng KPI nào? |
-| DA ∩ BD | Kênh/phân khúc nào BD muốn đẩy — số liệu retention & LTV có ủng hộ không? Dự báo doanh thu dựa trên giả định nào từ dữ liệu? |
-| BA ∩ BD | Tính năng nào giúp thắng deal? Đáng làm không khi so với chi phí phát triển? Đối tác cần quy trình phối hợp thế nào? |
-| **DA ∩ BA ∩ BD** | **GrowthOS nên chọn trọng tâm nào trong 3 hướng CEO đưa ra (hoặc kết hợp)? Phân bổ 1,5 tỷ ra sao? Đo thành công bằng gì?** |
+| DA ∩ BA | Số liệu chỉ ra điểm nghẽn ở khâu nào; quy trình nào giải thích được nó? Giải pháp đo bằng KPI nào? |
+| DA ∩ BD | Phân khúc/kênh BD muốn đẩy có dữ liệu doanh số và review ủng hộ không? |
+| BA ∩ BD | Tiêu chuẩn chất lượng seller (BA) nên đưa vào quy trình tuyển seller (BD) thế nào? |
+| **DA ∩ BA ∩ BD** | **Chọn trọng tâm nào trong 3 hướng (hoặc kết hợp)? Phân bổ R$ 2 triệu ra sao? Đo thành công bằng gì?** |
 
-### Sản phẩm cuối cùng
-1. **Memo đề xuất 2 trang** gửi CEO (vấn đề → bằng chứng → đề xuất → rủi ro → KPI).
-2. **Slide thuyết trình 10–12 trang**, trình bày trong 15 phút + 10 phút Q&A (nhờ mentor/bạn bè đóng vai CEO phản biện).
-3. **Dashboard** theo dõi các KPI cam kết.
-4. **Roadmap 2 quý**: việc gì, ai làm, khi nào, tốn bao nhiêu, kỳ vọng tác động bao nhiêu.
-5. Repo này: code/SQL, tài liệu, sơ đồ — sắp xếp gọn để nhà tuyển dụng mở là hiểu.
+### Sản phẩm cuối
+1. **Memo 2 trang** gửi Head of Growth (vấn đề → bằng chứng → đề xuất → rủi ro → KPI).
+2. **Slide 10–12 trang**, thuyết trình 15 phút + 10 phút Q&A.
+3. **Dashboard** theo dõi KPI cam kết.
+4. **Roadmap 2 quý**: việc gì, ai làm, khi nào, chi phí, tác động kỳ vọng.
 
 ---
 
@@ -108,46 +128,53 @@ Dữ liệu có chủ ý **không sạch hoàn toàn về mặt nghiệp vụ** 
 
 | Tuần | DA | BA | BD |
 |---|---|---|---|
-| 1 | Làm sạch dữ liệu, định nghĩa chỉ số, KPI tổng quan | Phỏng vấn giả định (đóng vai), vẽ journey As-Is | Nghiên cứu thị trường & đối thủ |
-| 2 | Cohort, CAC/LTV, tìm bất thường | Root cause từng vấn đề | Phân tích pipeline & đối tác |
-| 3 | Tín hiệu churn, dashboard | To-Be, BRD, backlog | GTM plan, mô hình tài chính |
-| 4 | **Cả nhóm**: chốt trọng tâm, phân bổ ngân sách, memo, slide, tập thuyết trình | | |
-
-Họp đồng bộ ngắn 2 lần/tuần — mỗi vai chia sẻ phát hiện để vai khác dùng ngay.
+| 1 | Tải & làm sạch dữ liệu, định nghĩa chỉ số, KPI tổng quan | Quy trình đơn hàng As-Is | Phễu tuyển seller |
+| 2 | Giao hàng & review, retention/RFM | Root cause, phân tích bình luận | Chất lượng seller theo kênh, cơ hội danh mục/vùng |
+| 3 | Phân tích seller, dashboard | To-Be, BRD, user story, KPI/SLA | GTM seller, mô hình tài chính |
+| 4 | **Cả nhóm**: chốt trọng tâm, ngân sách, memo, slide, tập thuyết trình | | |
 
 ---
 
 ## 6. Tiêu chí tự đánh giá
 
-| Tiêu chí | Trọng số | Câu hỏi tự kiểm tra |
-|---|---|---|
-| Đúng & sâu về số liệu | 25% | Chỉ số có định nghĩa rõ? Có phát hiện được hết các điểm bất thường không? Có tách được tương quan và nguyên nhân? |
-| Chất lượng phân tích nghiệp vụ | 20% | Nguyên nhân gốc có thuyết phục? Yêu cầu có đo được, test được? |
-| Tư duy thương mại | 20% | Đề xuất có tính tiền, tính ROI, tính payback? Giả định có hợp lý và ghi nguồn? |
-| Liên kết giữa 3 vai | 20% | Đề xuất cuối có dùng bằng chứng của cả 3 vai, hay chỉ là 3 báo cáo đặt cạnh nhau? |
-| Trình bày | 15% | CEO đọc memo 2 phút có hiểu nên làm gì không? |
+| Tiêu chí | Trọng số |
+|---|---|
+| Đúng & sâu về số liệu (xử lý đúng các bẫy dữ liệu, không nhân bản dòng khi join) | 25% |
+| Chất lượng phân tích nghiệp vụ | 20% |
+| Tư duy thương mại (ROI, payback, giả định có nguồn) | 20% |
+| Liên kết giữa 3 vai | 20% |
+| Trình bày | 15% |
 
 ---
 
-## 7. Ghi vào CV thế nào
+## 7. Ghi vào CV
 
-Viết theo dạng **hành động + công cụ + kết quả có số**, với số là do chính nhóm bạn tìm ra. Ví dụ khung (điền số của bạn vào):
+Đây là **dữ liệu thật** (đơn hàng ẩn danh của Olist), nên có thể ghi "phân tích ~100K đơn hàng thực tế của sàn TMĐT Olist (Brazil)". Ví dụ khung (điền số của nhóm bạn):
 
-- **DA**: "Phân tích ~28K bản ghi subscription của SaaS B2B bằng SQL/Python; xây cohort retention và CAC/LTV theo kênh, phát hiện [N] nguyên nhân khiến churn tăng [X]% trong [giai đoạn]; dựng dashboard [công cụ] theo dõi [N] KPI."
-- **BA**: "Thực hiện root-cause analysis và mô hình hoá quy trình As-Is/To-Be (BPMN) cho [quy trình]; viết BRD với [N] user story ưu tiên theo RICE, ước tính giảm churn [X] điểm %."
-- **BD**: "Ước tính TAM/SAM cho phân khúc [..]; phân tích pipeline [N] deal, đề xuất chiến lược đối tác [..] với dự báo +[X] MRR và payback [N] tháng."
-
-Ghi rõ đây là **case study mô phỏng** (dữ liệu giả lập) — trung thực sẽ được đánh giá cao hơn, và bạn vẫn kể được trọn câu chuyện khi phỏng vấn.
+- **DA**: "Phân tích ~100K đơn hàng của Olist bằng SQL/Python; xác định [yếu tố] làm điểm review giảm [X]; xây cohort/RFM và dashboard [công cụ] theo dõi [N] KPI."
+- **BA**: "Mô hình hoá quy trình fulfillment As-Is/To-Be (BPMN), phân tích root cause giao trễ; viết BRD với [N] user story cho [giải pháp]."
+- **BD**: "Phân tích phễu ~8K lead seller; đề xuất chiến lược tuyển seller theo [kênh/phân khúc] với dự báo +[X] GMV, payback [N] tháng."
 
 ---
 
-## Cấu trúc repo gợi ý
+## 8. Nguồn & giấy phép
 
-```
-data/
-  raw/                 # dữ liệu gốc (không sửa)
-da/                    # SQL, notebook, dashboard
-ba/                    # BRD, user story, sơ đồ BPMN
-bd/                    # market sizing, GTM plan, mô hình tài chính
-final/                 # memo, slide, roadmap
+- Olist, *Brazilian E-Commerce Public Dataset by Olist* và *Marketing Funnel by Olist*, Kaggle — giấy phép **CC BY-NC-SA 4.0**: ghi nguồn, phi thương mại, chia sẻ cùng giấy phép. Kiểm tra lại trên trang gốc trước khi dùng.
+- Dữ liệu gốc **không được commit** vào repo (xem `.gitignore`); mỗi người tự tải bằng script.
+
+## Cấu trúc
+
+```text
+GrowthOS/
+├── README.md              # đề bài (file này)
+├── requirements.txt
+├── RUN_WINDOWS.bat
+├── scripts/
+│   ├── download_data.py   # tải 2 bộ dữ liệu Olist từ Kaggle
+│   └── build_database.py  # import vào data/processed/olist.duckdb + view marts.olist_seller_growth
+├── sql/analysis_queries.sql
+├── docs/data_sources.csv
+└── data/
+    ├── raw/               # CSV tải về (không commit)
+    └── processed/         # DuckDB (không commit)
 ```
