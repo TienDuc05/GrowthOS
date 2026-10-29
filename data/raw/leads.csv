@@ -1,0 +1,698 @@
+lead_id,created_date,source,segment,city,store_count,stage,est_mrr_vnd,closed_date,lost_reason,owner
+L00001,2025-01-11,Event,F&B,Hà Nội,9,Lost,10800000,2025-02-17,Không phản hồi,Nam
+L00002,2025-01-14,Inbound,Retail,Hà Nội,4,Lost,4800000,2025-02-22,Không phản hồi,Quân
+L00003,2025-01-08,Inbound,Pharmacy,TP.HCM,7,Lost,8400000,2025-03-21,Giá cao,Trang
+L00004,2025-01-09,Event,Retail,Hà Nội,26,Lost,12974000,2025-02-23,Không phản hồi,Huy
+L00005,2025-01-16,Event,Retail,Cần Thơ,31,Lost,37200000,2025-03-06,Không phản hồi,Quân
+L00006,2025-01-02,Partner - Distributor,Pharmacy,TP.HCM,37,Lost,44400000,2025-02-04,Không phản hồi,Nam
+L00007,2025-01-19,Outbound,F&B,Hải Phòng,37,Lost,44400000,2025-04-16,Giá cao,Huy
+L00008,2025-01-23,Outbound,Pharmacy,Cần Thơ,12,Lost,5988000,2025-03-26,Chọn đối thủ,Trang
+L00009,2025-01-13,Event,F&B,Hà Nội,34,Lost,16966000,2025-02-18,Thiếu hoá đơn điện tử,Linh
+L00010,2025-01-25,Event,Retail,Hà Nội,12,Lost,5988000,2025-03-11,Chọn đối thủ,Huy
+L00011,2025-01-02,Inbound,Beauty,Đà Nẵng,31,Lost,37200000,2025-02-02,Chọn đối thủ,Linh
+L00012,2025-01-22,Outbound,F&B,Cần Thơ,30,Lost,36000000,2025-03-07,Chọn đối thủ,Quân
+L00013,2025-01-04,Outbound,Retail,Nha Trang,7,Lost,8400000,2025-03-05,Thiếu tích hợp kế toán,Huy
+L00014,2025-01-25,Inbound,F&B,Đà Nẵng,7,Lost,8400000,2025-03-19,Không phản hồi,Huy
+L00015,2025-01-02,Inbound,Pharmacy,Nha Trang,12,Lost,14400000,2025-03-12,Chọn đối thủ,Linh
+L00016,2025-01-08,Partner - Distributor,Retail,Hà Nội,33,Lost,39600000,2025-02-07,Giá cao,Nam
+L00017,2025-01-18,Inbound,Retail,Nha Trang,15,Lost,7485000,2025-03-13,Không phản hồi,Huy
+L00018,2025-01-18,Partner - Distributor,Beauty,Quy Nhơn,9,Lost,10800000,2025-02-25,Chọn đối thủ,Trang
+L00019,2025-01-17,Outbound,Retail,Quy Nhơn,4,Lost,4800000,2025-02-28,Thiếu hoá đơn điện tử,Huy
+L00020,2025-01-10,Partner - Distributor,Retail,TP.HCM,39,Lost,19461000,2025-02-04,Thiếu tích hợp kế toán,Linh
+L00021,2025-01-26,Outbound,F&B,Buôn Ma Thuột,35,Lost,17465000,2025-03-16,Giá cao,Nam
+L00022,2025-01-10,Partner - Bank,Retail,TP.HCM,26,Lost,31200000,2025-02-17,Chọn đối thủ,Quân
+L00023,2025-01-01,Outbound,F&B,Hà Nội,34,Lost,16966000,2025-02-22,Chọn đối thủ,Nam
+L00024,2025-01-21,Outbound,F&B,Hà Nội,20,Lost,9980000,2025-03-22,Không phản hồi,Trang
+L00025,2025-01-21,Partner - Bank,Retail,TP.HCM,29,Won,14471000,2025-03-05,,Nam
+L00026,2025-01-04,Inbound,Retail,Hà Nội,34,Lost,40800000,2025-02-20,Thiếu hoá đơn điện tử,Quân
+L00027,2025-01-23,Event,F&B,Cần Thơ,10,Lost,12000000,2025-03-19,Thiếu hoá đơn điện tử,Nam
+L00028,2025-01-07,Partner - Bank,F&B,TP.HCM,5,Lost,2495000,2025-02-06,Không phản hồi,Trang
+L00029,2025-01-03,Partner - Distributor,Beauty,TP.HCM,12,Lost,14400000,2025-02-20,Thiếu tích hợp kế toán,Huy
+L00030,2025-01-17,Event,Retail,TP.HCM,14,Lost,6986000,2025-03-28,Thiếu hoá đơn điện tử,Huy
+L00031,2025-01-04,Outbound,Pharmacy,Nha Trang,36,Lost,17964000,2025-02-13,Thiếu hoá đơn điện tử,Nam
+L00032,2025-01-30,Outbound,Beauty,TP.HCM,10,Lost,4990000,2025-03-08,Không phản hồi,Huy
+L00033,2025-01-25,Outbound,F&B,Hải Phòng,33,Lost,16467000,2025-04-04,Thiếu tích hợp kế toán,Linh
+L00034,2025-01-24,Event,Beauty,Đà Nẵng,31,Lost,15469000,2025-03-04,Không phản hồi,Linh
+L00035,2025-01-06,Outbound,Retail,TP.HCM,34,Lost,40800000,2025-03-01,Thiếu hoá đơn điện tử,Linh
+L00036,2025-01-26,Partner - Distributor,Beauty,TP.HCM,26,Lost,12974000,2025-02-18,Thiếu hoá đơn điện tử,Nam
+L00037,2025-01-05,Outbound,Retail,Quy Nhơn,18,Lost,8982000,2025-02-23,Giá cao,Quân
+L00038,2025-01-06,Partner - Bank,Beauty,TP.HCM,10,Won,12000000,2025-01-24,,Nam
+L00039,2025-01-18,Event,Pharmacy,Hà Nội,35,Lost,42000000,2025-03-18,Thiếu hoá đơn điện tử,Huy
+L00040,2025-01-07,Inbound,F&B,Hà Nội,15,Won,18000000,2025-03-14,,Huy
+L00041,2025-01-02,Inbound,Retail,Hà Nội,38,Won,45600000,2025-02-23,,Linh
+L00042,2025-01-07,Inbound,Pharmacy,TP.HCM,19,Won,22800000,2025-02-15,,Trang
+L00043,2025-01-12,Outbound,Pharmacy,TP.HCM,28,Lost,33600000,2025-01-28,Chọn đối thủ,Huy
+L00044,2025-01-23,Inbound,F&B,Đà Nẵng,24,Lost,28800000,2025-03-10,Thiếu tích hợp kế toán,Quân
+L00045,2025-01-13,Partner - Distributor,F&B,TP.HCM,25,Lost,12475000,2025-01-25,Không phản hồi,Linh
+L00046,2025-01-04,Event,F&B,Vinh,8,Lost,3992000,2025-02-22,Thiếu tích hợp kế toán,Nam
+L00047,2025-01-08,Inbound,Retail,TP.HCM,33,Lost,39600000,2025-02-22,Giá cao,Nam
+L00048,2025-01-01,Outbound,F&B,Đà Nẵng,21,Lost,25200000,2025-02-08,Thiếu hoá đơn điện tử,Trang
+L00049,2025-01-19,Outbound,Retail,TP.HCM,32,Lost,38400000,2025-02-21,Chọn đối thủ,Huy
+L00050,2025-01-17,Event,Retail,TP.HCM,10,Lost,4990000,2025-03-09,Thiếu hoá đơn điện tử,Nam
+L00051,2025-01-11,Inbound,Retail,TP.HCM,19,Lost,22800000,2025-03-12,Giá cao,Huy
+L00052,2025-01-05,Outbound,Pharmacy,Hải Phòng,5,Lost,6000000,2025-03-02,Chọn đối thủ,Nam
+L00053,2025-01-28,Inbound,F&B,Buôn Ma Thuột,37,Lost,44400000,2025-03-31,Thiếu hoá đơn điện tử,Huy
+L00054,2025-02-12,Outbound,F&B,Đà Nẵng,5,Lost,6000000,2025-04-06,Không phản hồi,Quân
+L00055,2025-02-27,Inbound,Beauty,Hà Nội,27,Lost,13473000,2025-04-29,Thiếu tích hợp kế toán,Nam
+L00056,2025-02-21,Event,Retail,Hà Nội,33,Lost,16467000,2025-04-02,Thiếu hoá đơn điện tử,Quân
+L00057,2025-02-12,Outbound,Retail,TP.HCM,4,Lost,4800000,2025-04-02,Không phản hồi,Nam
+L00058,2025-02-09,Partner - Distributor,Retail,Hải Phòng,26,Lost,31200000,2025-03-01,Không phản hồi,Linh
+L00059,2025-02-13,Inbound,Retail,Hà Nội,35,Won,42000000,2025-04-21,,Nam
+L00060,2025-02-22,Inbound,Retail,Quy Nhơn,39,Won,46800000,2025-03-31,,Quân
+L00061,2025-02-21,Partner - Distributor,Beauty,TP.HCM,26,Lost,31200000,2025-04-05,Thiếu hoá đơn điện tử,Huy
+L00062,2025-02-11,Partner - Bank,Pharmacy,Hà Nội,21,Lost,25200000,2025-03-07,Thiếu tích hợp kế toán,Quân
+L00063,2025-02-02,Outbound,Retail,Quy Nhơn,19,Lost,9481000,2025-04-01,Thiếu hoá đơn điện tử,Nam
+L00064,2025-02-23,Outbound,F&B,Quy Nhơn,38,Lost,45600000,2025-04-20,Không phản hồi,Linh
+L00065,2025-02-03,Event,Retail,Hải Phòng,36,Lost,43200000,2025-03-30,Giá cao,Quân
+L00066,2025-02-08,Partner - Distributor,Retail,Hà Nội,25,Lost,12475000,2025-03-12,Không phản hồi,Quân
+L00067,2025-02-09,Inbound,Retail,TP.HCM,27,Lost,13473000,2025-04-14,Thiếu hoá đơn điện tử,Huy
+L00068,2025-02-19,Inbound,Retail,Huế,35,Lost,17465000,2025-04-08,Không phản hồi,Huy
+L00069,2025-02-26,Outbound,F&B,TP.HCM,9,Lost,10800000,2025-05-06,Thiếu hoá đơn điện tử,Nam
+L00070,2025-02-11,Outbound,Retail,TP.HCM,18,Lost,21600000,2025-04-14,Thiếu hoá đơn điện tử,Linh
+L00071,2025-02-24,Partner - Bank,F&B,TP.HCM,28,Lost,13972000,2025-04-13,Chọn đối thủ,Nam
+L00072,2025-02-02,Outbound,Pharmacy,Buôn Ma Thuột,29,Lost,14471000,2025-03-29,Thiếu hoá đơn điện tử,Quân
+L00073,2025-02-15,Inbound,Pharmacy,Hà Nội,10,Won,12000000,2025-03-16,,Nam
+L00074,2025-02-18,Partner - Distributor,Retail,Đà Nẵng,22,Lost,10978000,2025-03-22,Thiếu hoá đơn điện tử,Huy
+L00075,2025-02-08,Event,Retail,Quy Nhơn,24,Lost,28800000,2025-04-21,Thiếu tích hợp kế toán,Huy
+L00076,2025-02-28,Outbound,Pharmacy,Đà Nẵng,16,Lost,7984000,2025-04-11,Thiếu tích hợp kế toán,Nam
+L00077,2025-02-04,Inbound,F&B,Đà Nẵng,35,Lost,17465000,2025-03-26,Giá cao,Linh
+L00078,2025-02-14,Partner - Bank,Retail,Hà Nội,20,Lost,24000000,2025-03-21,Thiếu tích hợp kế toán,Quân
+L00079,2025-02-10,Partner - Bank,Beauty,Buôn Ma Thuột,37,Won,44400000,2025-03-14,,Linh
+L00080,2025-02-07,Outbound,Retail,Đà Nẵng,35,Lost,42000000,2025-04-06,Giá cao,Nam
+L00081,2025-02-02,Partner - Distributor,F&B,TP.HCM,26,Lost,12974000,2025-03-04,Giá cao,Nam
+L00082,2025-02-24,Outbound,Retail,Nha Trang,33,Lost,16467000,2025-04-12,Thiếu hoá đơn điện tử,Linh
+L00083,2025-02-16,Partner - Distributor,Retail,Hà Nội,4,Lost,1996000,2025-02-24,Giá cao,Linh
+L00084,2025-02-02,Inbound,Retail,TP.HCM,6,Won,7200000,2025-04-03,,Quân
+L00085,2025-02-11,Outbound,Retail,Hà Nội,39,Lost,19461000,2025-03-26,Thiếu hoá đơn điện tử,Trang
+L00086,2025-02-01,Event,Retail,Hà Nội,40,Lost,48000000,2025-03-08,Thiếu tích hợp kế toán,Trang
+L00087,2025-02-13,Partner - Bank,Retail,Hà Nội,15,Lost,7485000,2025-03-15,Thiếu hoá đơn điện tử,Nam
+L00088,2025-02-21,Outbound,F&B,TP.HCM,28,Lost,33600000,2025-03-17,Chọn đối thủ,Linh
+L00089,2025-02-19,Partner - Bank,F&B,Nha Trang,34,Lost,40800000,2025-03-14,Thiếu hoá đơn điện tử,Huy
+L00090,2025-02-28,Partner - Distributor,Beauty,Nha Trang,38,Won,18962000,2025-03-14,,Linh
+L00091,2025-02-05,Event,Pharmacy,Hải Phòng,28,Won,13972000,2025-03-31,,Nam
+L00092,2025-02-25,Partner - Bank,F&B,Vinh,13,Won,6487000,2025-04-09,,Linh
+L00093,2025-02-26,Event,F&B,Quy Nhơn,14,Lost,16800000,2025-03-29,Không phản hồi,Huy
+L00094,2025-02-02,Event,F&B,Đà Nẵng,22,Lost,10978000,2025-03-23,Chọn đối thủ,Trang
+L00095,2025-02-04,Outbound,F&B,Hà Nội,18,Lost,8982000,2025-03-25,Thiếu hoá đơn điện tử,Linh
+L00096,2025-02-16,Partner - Bank,Beauty,Quy Nhơn,33,Won,39600000,2025-04-04,,Nam
+L00097,2025-02-28,Partner - Distributor,F&B,TP.HCM,18,Lost,21600000,2025-03-23,Không phản hồi,Trang
+L00098,2025-02-14,Partner - Bank,Retail,Nha Trang,7,Lost,3493000,2025-02-22,Thiếu tích hợp kế toán,Huy
+L00099,2025-02-26,Partner - Bank,Beauty,Nha Trang,12,Lost,14400000,2025-03-27,Thiếu hoá đơn điện tử,Linh
+L00100,2025-02-10,Partner - Bank,Retail,Hà Nội,28,Lost,13972000,2025-04-07,Thiếu hoá đơn điện tử,Quân
+L00101,2025-02-02,Outbound,Pharmacy,Hải Phòng,17,Lost,20400000,2025-03-28,Thiếu hoá đơn điện tử,Trang
+L00102,2025-02-26,Outbound,Pharmacy,TP.HCM,40,Lost,48000000,2025-04-11,Thiếu hoá đơn điện tử,Huy
+L00103,2025-02-18,Partner - Distributor,Retail,Đà Nẵng,6,Lost,2994000,2025-03-23,Không phản hồi,Huy
+L00104,2025-02-09,Partner - Bank,Beauty,Hà Nội,34,Won,40800000,2025-03-13,,Nam
+L00105,2025-02-23,Inbound,Retail,Hà Nội,38,Lost,18962000,2025-04-14,Thiếu hoá đơn điện tử,Quân
+L00106,2025-02-04,Outbound,Retail,TP.HCM,33,Lost,39600000,2025-03-15,Thiếu hoá đơn điện tử,Huy
+L00107,2025-02-08,Partner - Distributor,Retail,Vinh,40,Lost,48000000,2025-04-08,Thiếu hoá đơn điện tử,Nam
+L00108,2025-02-19,Inbound,Pharmacy,Hải Phòng,12,Lost,5988000,2025-04-01,Thiếu tích hợp kế toán,Quân
+L00109,2025-02-18,Partner - Distributor,Retail,Cần Thơ,30,Lost,36000000,2025-03-08,Chọn đối thủ,Linh
+L00110,2025-02-28,Partner - Bank,F&B,Nha Trang,28,Lost,13972000,2025-04-05,Không phản hồi,Linh
+L00111,2025-02-09,Outbound,Retail,TP.HCM,9,Lost,10800000,2025-04-04,Không phản hồi,Huy
+L00112,2025-02-18,Inbound,F&B,Hải Phòng,30,Won,14970000,2025-03-28,,Huy
+L00113,2025-02-28,Partner - Bank,Retail,Quy Nhơn,19,Won,22800000,2025-04-01,,Trang
+L00114,2025-02-20,Event,F&B,TP.HCM,24,Lost,11976000,2025-03-26,Thiếu hoá đơn điện tử,Nam
+L00115,2025-02-05,Outbound,Beauty,Huế,32,Lost,15968000,2025-03-05,Thiếu tích hợp kế toán,Huy
+L00116,2025-03-16,Outbound,F&B,Hải Phòng,23,Lost,27600000,2025-05-28,Thiếu hoá đơn điện tử,Nam
+L00117,2025-03-12,Partner - Bank,F&B,TP.HCM,37,Lost,18463000,2025-04-05,Giá cao,Quân
+L00118,2025-03-07,Event,Retail,Buôn Ma Thuột,9,Won,4491000,2025-05-02,,Trang
+L00119,2025-03-25,Partner - Bank,Beauty,Đà Nẵng,19,Lost,9481000,2025-04-02,Thiếu hoá đơn điện tử,Quân
+L00120,2025-03-23,Outbound,Retail,TP.HCM,19,Lost,22800000,2025-06-01,Chọn đối thủ,Trang
+L00121,2025-03-30,Outbound,Retail,Hà Nội,16,Lost,19200000,2025-05-23,Không phản hồi,Trang
+L00122,2025-03-05,Outbound,F&B,Hải Phòng,10,Lost,12000000,2025-04-13,Giá cao,Nam
+L00123,2025-03-28,Outbound,Retail,Huế,28,Lost,13972000,2025-05-13,Chọn đối thủ,Huy
+L00124,2025-03-03,Outbound,Beauty,Huế,15,Lost,7485000,2025-05-28,Thiếu hoá đơn điện tử,Quân
+L00125,2025-03-21,Partner - Distributor,F&B,Cần Thơ,33,Won,39600000,2025-05-11,,Quân
+L00126,2025-03-03,Outbound,Pharmacy,TP.HCM,40,Lost,19960000,2025-04-08,Không phản hồi,Nam
+L00127,2025-03-21,Inbound,Beauty,Hải Phòng,24,Lost,11976000,2025-05-15,Thiếu hoá đơn điện tử,Quân
+L00128,2025-03-22,Inbound,F&B,TP.HCM,35,Lost,42000000,2025-05-01,Giá cao,Huy
+L00129,2025-03-24,Event,F&B,Hà Nội,40,Won,48000000,2025-04-30,,Quân
+L00130,2025-03-04,Inbound,F&B,Hà Nội,13,Lost,15600000,2025-05-03,Thiếu tích hợp kế toán,Quân
+L00131,2025-03-22,Partner - Distributor,Retail,TP.HCM,5,Lost,6000000,2025-04-16,Thiếu tích hợp kế toán,Quân
+L00132,2025-03-12,Outbound,Retail,Hải Phòng,39,Lost,46800000,2025-05-08,Thiếu tích hợp kế toán,Trang
+L00133,2025-03-03,Partner - Distributor,Retail,Hà Nội,23,Lost,27600000,2025-04-13,Giá cao,Huy
+L00134,2025-03-27,Event,Pharmacy,Huế,18,Lost,8982000,2025-05-25,Thiếu hoá đơn điện tử,Quân
+L00135,2025-03-09,Outbound,Retail,Hà Nội,35,Won,42000000,2025-05-18,,Trang
+L00136,2025-03-25,Inbound,Pharmacy,Hà Nội,12,Lost,14400000,2025-05-16,Thiếu hoá đơn điện tử,Huy
+L00137,2025-03-28,Event,Retail,Hà Nội,17,Won,20400000,2025-05-07,,Huy
+L00138,2025-03-30,Outbound,Beauty,Quy Nhơn,40,Lost,48000000,2025-05-10,Thiếu tích hợp kế toán,Quân
+L00139,2025-03-20,Inbound,Retail,Đà Nẵng,28,Won,13972000,2025-05-21,,Huy
+L00140,2025-03-01,Event,F&B,Đà Nẵng,14,Lost,16800000,2025-04-09,Thiếu hoá đơn điện tử,Nam
+L00141,2025-03-20,Event,Retail,Vinh,10,Lost,4990000,2025-05-11,Giá cao,Nam
+L00142,2025-03-07,Outbound,Beauty,TP.HCM,31,Lost,15469000,2025-05-12,Chọn đối thủ,Huy
+L00143,2025-03-08,Inbound,F&B,TP.HCM,11,Lost,13200000,2025-05-14,Giá cao,Linh
+L00144,2025-03-27,Outbound,Retail,TP.HCM,14,Lost,16800000,2025-05-24,Chọn đối thủ,Nam
+L00145,2025-03-12,Inbound,F&B,Huế,27,Lost,13473000,2025-04-23,Thiếu tích hợp kế toán,Quân
+L00146,2025-03-07,Inbound,Retail,Hà Nội,14,Won,16800000,2025-04-10,,Nam
+L00147,2025-03-03,Outbound,F&B,TP.HCM,11,Lost,13200000,2025-04-07,Giá cao,Huy
+L00148,2025-03-27,Outbound,Retail,TP.HCM,33,Lost,39600000,2025-06-09,Thiếu hoá đơn điện tử,Linh
+L00149,2025-03-26,Inbound,Beauty,TP.HCM,22,Lost,10978000,2025-05-09,Không phản hồi,Nam
+L00150,2025-03-17,Outbound,Beauty,Hà Nội,11,Lost,5489000,2025-05-02,Không phản hồi,Quân
+L00151,2025-03-25,Outbound,Pharmacy,Cần Thơ,8,Lost,3992000,2025-05-26,Thiếu hoá đơn điện tử,Nam
+L00152,2025-03-07,Partner - Distributor,F&B,Đà Nẵng,28,Won,13972000,2025-04-29,,Quân
+L00153,2025-03-05,Inbound,Beauty,TP.HCM,37,Lost,18463000,2025-04-16,Không phản hồi,Huy
+L00154,2025-03-15,Event,F&B,Vinh,15,Won,7485000,2025-04-27,,Quân
+L00155,2025-03-08,Inbound,Pharmacy,TP.HCM,19,Won,22800000,2025-04-14,,Huy
+L00156,2025-03-15,Partner - Bank,Beauty,Buôn Ma Thuột,29,Lost,34800000,2025-04-19,Thiếu hoá đơn điện tử,Linh
+L00157,2025-03-14,Partner - Bank,F&B,TP.HCM,15,Lost,18000000,2025-04-27,Chọn đối thủ,Nam
+L00158,2025-03-30,Inbound,Retail,TP.HCM,27,Lost,13473000,2025-05-14,Thiếu hoá đơn điện tử,Nam
+L00159,2025-03-21,Inbound,Retail,Cần Thơ,20,Lost,24000000,2025-04-23,Thiếu tích hợp kế toán,Huy
+L00160,2025-03-30,Inbound,Retail,Hải Phòng,14,Won,16800000,2025-05-25,,Linh
+L00161,2025-03-09,Outbound,F&B,Buôn Ma Thuột,22,Lost,26400000,2025-04-20,Không phản hồi,Linh
+L00162,2025-03-16,Partner - Bank,Pharmacy,Cần Thơ,27,Won,32400000,2025-04-19,,Trang
+L00163,2025-03-25,Partner - Bank,Beauty,Nha Trang,31,Lost,37200000,2025-05-04,Thiếu tích hợp kế toán,Nam
+L00164,2025-03-12,Inbound,F&B,TP.HCM,35,Lost,42000000,2025-04-29,Thiếu tích hợp kế toán,Trang
+L00165,2025-03-17,Inbound,F&B,Nha Trang,32,Lost,15968000,2025-04-26,Chọn đối thủ,Quân
+L00166,2025-03-29,Outbound,Retail,Vinh,35,Lost,17465000,2025-05-19,Thiếu hoá đơn điện tử,Quân
+L00167,2025-03-14,Inbound,Retail,Huế,37,Won,18463000,2025-04-24,,Linh
+L00168,2025-03-26,Outbound,F&B,Hà Nội,14,Lost,16800000,2025-04-25,Giá cao,Huy
+L00169,2025-03-21,Partner - Distributor,F&B,Cần Thơ,27,Lost,13473000,2025-04-13,Giá cao,Quân
+L00170,2025-03-24,Inbound,Retail,Huế,10,Lost,12000000,2025-05-17,Giá cao,Trang
+L00171,2025-03-12,Outbound,F&B,Vinh,24,Lost,28800000,2025-05-04,Không phản hồi,Trang
+L00172,2025-03-19,Inbound,Retail,TP.HCM,31,Lost,15469000,2025-05-11,Không phản hồi,Quân
+L00173,2025-03-13,Event,F&B,TP.HCM,9,Lost,10800000,2025-05-12,Giá cao,Linh
+L00174,2025-03-27,Event,Retail,Vinh,5,Lost,6000000,2025-04-30,Không phản hồi,Huy
+L00175,2025-03-07,Outbound,F&B,Hà Nội,33,Lost,39600000,2025-04-27,Không phản hồi,Nam
+L00176,2025-03-21,Partner - Bank,Retail,Nha Trang,37,Lost,18463000,2025-04-02,Giá cao,Linh
+L00177,2025-03-22,Outbound,Retail,Cần Thơ,22,Lost,10978000,2025-05-10,Thiếu tích hợp kế toán,Nam
+L00178,2025-03-06,Inbound,Retail,Nha Trang,19,Won,9481000,2025-04-19,,Nam
+L00179,2025-03-01,Outbound,Retail,Hải Phòng,14,Lost,6986000,2025-04-08,Giá cao,Huy
+L00180,2025-03-14,Event,Retail,TP.HCM,39,Lost,46800000,2025-04-28,Giá cao,Trang
+L00181,2025-04-05,Outbound,Retail,TP.HCM,30,Lost,36000000,2025-06-04,Không phản hồi,Trang
+L00182,2025-04-08,Outbound,F&B,Vinh,9,Lost,4491000,2025-05-29,Không phản hồi,Huy
+L00183,2025-04-22,Inbound,F&B,TP.HCM,38,Lost,45600000,2025-06-01,Chọn đối thủ,Nam
+L00184,2025-04-10,Inbound,Retail,Đà Nẵng,28,Lost,33600000,2025-05-30,Không phản hồi,Linh
+L00185,2025-04-06,Partner - Bank,Pharmacy,Nha Trang,5,Won,2495000,2025-05-26,,Linh
+L00186,2025-04-10,Partner - Distributor,Retail,Hà Nội,19,Lost,22800000,2025-05-28,Giá cao,Huy
+L00187,2025-04-30,Outbound,Retail,TP.HCM,12,Lost,14400000,2025-06-22,Thiếu tích hợp kế toán,Nam
+L00188,2025-04-15,Outbound,Beauty,Đà Nẵng,17,Lost,20400000,2025-05-20,Không phản hồi,Quân
+L00189,2025-04-09,Partner - Bank,Beauty,Đà Nẵng,15,Lost,7485000,2025-05-20,Thiếu hoá đơn điện tử,Linh
+L00190,2025-04-01,Partner - Distributor,Retail,TP.HCM,12,Lost,5988000,2025-04-22,Thiếu hoá đơn điện tử,Linh
+L00191,2025-04-26,Outbound,Retail,Vinh,36,Lost,43200000,2025-06-16,Giá cao,Trang
+L00192,2025-04-25,Outbound,F&B,Hà Nội,30,Lost,36000000,2025-05-23,Không phản hồi,Linh
+L00193,2025-04-27,Event,Retail,Hà Nội,3,Lost,3600000,2025-05-31,Thiếu hoá đơn điện tử,Quân
+L00194,2025-04-15,Outbound,Pharmacy,Hải Phòng,37,Lost,44400000,2025-06-02,Giá cao,Nam
+L00195,2025-04-21,Event,Retail,TP.HCM,17,Lost,20400000,2025-05-30,Giá cao,Huy
+L00196,2025-04-22,Partner - Distributor,Beauty,Hà Nội,12,Lost,14400000,2025-05-25,Giá cao,Huy
+L00197,2025-04-05,Partner - Bank,Pharmacy,Hải Phòng,7,Won,8400000,2025-05-04,,Linh
+L00198,2025-04-11,Event,Pharmacy,Quy Nhơn,26,Lost,12974000,2025-05-21,Thiếu tích hợp kế toán,Linh
+L00199,2025-04-14,Inbound,Pharmacy,Buôn Ma Thuột,3,Lost,1497000,2025-05-23,Chọn đối thủ,Nam
+L00200,2025-04-28,Inbound,F&B,Vinh,13,Lost,6487000,2025-06-16,Giá cao,Huy
+L00201,2025-04-04,Partner - Bank,Retail,TP.HCM,18,Lost,8982000,2025-04-26,Chọn đối thủ,Trang
+L00202,2025-04-14,Partner - Bank,Retail,TP.HCM,22,Lost,26400000,2025-05-06,Thiếu hoá đơn điện tử,Quân
+L00203,2025-04-25,Outbound,F&B,TP.HCM,34,Lost,40800000,2025-06-10,Không phản hồi,Huy
+L00204,2025-04-13,Partner - Bank,Retail,Hà Nội,23,Lost,27600000,2025-05-09,Không phản hồi,Linh
+L00205,2025-04-27,Partner - Distributor,Retail,TP.HCM,35,Lost,42000000,2025-05-20,Chọn đối thủ,Nam
+L00206,2025-04-29,Inbound,F&B,Đà Nẵng,6,Lost,7200000,2025-07-06,Thiếu tích hợp kế toán,Huy
+L00207,2025-04-17,Inbound,Retail,Hải Phòng,33,Won,16467000,2025-05-14,,Trang
+L00208,2025-04-06,Inbound,Retail,Hải Phòng,4,Lost,1996000,2025-05-23,Thiếu hoá đơn điện tử,Trang
+L00209,2025-04-13,Inbound,Beauty,TP.HCM,16,Lost,7984000,2025-05-26,Không phản hồi,Linh
+L00210,2025-04-26,Outbound,Retail,Quy Nhơn,15,Lost,7485000,2025-06-22,Không phản hồi,Trang
+L00211,2025-04-01,Partner - Distributor,Pharmacy,Hà Nội,19,Won,22800000,2025-04-28,,Quân
+L00212,2025-04-26,Event,Retail,Cần Thơ,15,Lost,7485000,2025-05-20,Thiếu hoá đơn điện tử,Linh
+L00213,2025-04-19,Partner - Bank,F&B,TP.HCM,13,Lost,15600000,2025-05-28,Không phản hồi,Nam
+L00214,2025-04-06,Outbound,Beauty,Cần Thơ,17,Lost,8483000,2025-05-08,Thiếu hoá đơn điện tử,Quân
+L00215,2025-04-08,Outbound,F&B,Cần Thơ,11,Lost,13200000,2025-05-11,Thiếu tích hợp kế toán,Quân
+L00216,2025-04-17,Inbound,Retail,Hải Phòng,22,Won,26400000,2025-06-03,,Trang
+L00217,2025-04-18,Partner - Bank,Retail,TP.HCM,29,Lost,14471000,2025-05-25,Giá cao,Huy
+L00218,2025-04-18,Inbound,F&B,Cần Thơ,17,Lost,8483000,2025-06-14,Chọn đối thủ,Linh
+L00219,2025-04-23,Inbound,F&B,Huế,20,Lost,24000000,2025-06-19,Thiếu hoá đơn điện tử,Linh
+L00220,2025-04-04,Partner - Distributor,Pharmacy,TP.HCM,36,Lost,43200000,2025-05-17,Thiếu hoá đơn điện tử,Trang
+L00221,2025-04-26,Partner - Distributor,Retail,TP.HCM,26,Lost,12974000,2025-05-01,Giá cao,Nam
+L00222,2025-04-21,Inbound,Beauty,Hà Nội,15,Lost,7485000,2025-06-03,Không phản hồi,Trang
+L00223,2025-04-27,Outbound,Retail,Buôn Ma Thuột,7,Lost,8400000,2025-06-02,Không phản hồi,Quân
+L00224,2025-04-05,Event,Retail,Hải Phòng,10,Lost,12000000,2025-05-26,Thiếu hoá đơn điện tử,Huy
+L00225,2025-04-20,Outbound,F&B,TP.HCM,14,Lost,16800000,2025-06-15,Giá cao,Linh
+L00226,2025-04-25,Inbound,F&B,Hải Phòng,22,Lost,26400000,2025-06-04,Không phản hồi,Linh
+L00227,2025-04-25,Inbound,Retail,Nha Trang,35,Lost,17465000,2025-06-30,Không phản hồi,Linh
+L00228,2025-04-30,Partner - Bank,Pharmacy,Hà Nội,9,Lost,10800000,2025-05-31,Thiếu tích hợp kế toán,Huy
+L00229,2025-04-21,Outbound,Retail,Hải Phòng,18,Lost,8982000,2025-06-03,Giá cao,Huy
+L00230,2025-04-06,Inbound,Retail,Huế,14,Won,6986000,2025-05-24,,Nam
+L00231,2025-04-26,Partner - Bank,F&B,Buôn Ma Thuột,38,Won,18962000,2025-06-02,,Trang
+L00232,2025-04-09,Event,Pharmacy,Hà Nội,36,Lost,17964000,2025-06-03,Thiếu hoá đơn điện tử,Nam
+L00233,2025-04-29,Event,Retail,Nha Trang,12,Lost,14400000,2025-05-31,Không phản hồi,Trang
+L00234,2025-04-27,Outbound,Retail,Huế,12,Lost,5988000,2025-06-17,Thiếu hoá đơn điện tử,Nam
+L00235,2025-04-18,Outbound,Retail,Huế,26,Lost,31200000,2025-05-29,Thiếu hoá đơn điện tử,Linh
+L00236,2025-04-13,Outbound,Retail,TP.HCM,3,Lost,1497000,2025-05-24,Thiếu hoá đơn điện tử,Trang
+L00237,2025-04-14,Event,Retail,Vinh,12,Lost,5988000,2025-06-01,Giá cao,Nam
+L00238,2025-04-21,Inbound,F&B,TP.HCM,5,Lost,2495000,2025-06-08,Thiếu hoá đơn điện tử,Nam
+L00239,2025-05-04,Event,Pharmacy,Nha Trang,12,Won,14400000,2025-06-08,,Trang
+L00240,2025-05-17,Outbound,Retail,Hà Nội,16,Lost,19200000,2025-06-25,Thiếu tích hợp kế toán,Nam
+L00241,2025-05-01,Partner - Distributor,Retail,TP.HCM,7,Lost,3493000,2025-06-02,Thiếu hoá đơn điện tử,Trang
+L00242,2025-05-04,Outbound,Beauty,TP.HCM,19,Lost,22800000,2025-07-02,Thiếu tích hợp kế toán,Trang
+L00243,2025-05-25,Partner - Distributor,Pharmacy,TP.HCM,15,Won,7485000,2025-06-22,,Quân
+L00244,2025-05-17,Partner - Bank,Retail,Cần Thơ,18,Won,21600000,2025-06-18,,Huy
+L00245,2025-05-18,Outbound,Pharmacy,Hà Nội,17,Lost,20400000,2025-06-25,Không phản hồi,Nam
+L00246,2025-05-23,Partner - Distributor,Retail,Buôn Ma Thuột,14,Won,6986000,2025-06-28,,Trang
+L00247,2025-05-04,Inbound,Pharmacy,Đà Nẵng,15,Lost,7485000,2025-06-13,Thiếu tích hợp kế toán,Quân
+L00248,2025-05-20,Partner - Distributor,F&B,Đà Nẵng,21,Won,25200000,2025-07-02,,Nam
+L00249,2025-05-28,Event,Retail,TP.HCM,26,Won,12974000,2025-07-23,,Huy
+L00250,2025-05-01,Event,F&B,Vinh,21,Lost,10479000,2025-06-19,Thiếu tích hợp kế toán,Trang
+L00251,2025-05-20,Partner - Distributor,F&B,TP.HCM,28,Lost,33600000,2025-06-18,Chọn đối thủ,Trang
+L00252,2025-05-31,Event,Beauty,TP.HCM,7,Lost,8400000,2025-07-22,Thiếu hoá đơn điện tử,Linh
+L00253,2025-05-08,Outbound,Pharmacy,TP.HCM,9,Lost,4491000,2025-06-27,Thiếu hoá đơn điện tử,Linh
+L00254,2025-05-15,Partner - Bank,Retail,TP.HCM,11,Lost,5489000,2025-06-13,Chọn đối thủ,Huy
+L00255,2025-05-23,Partner - Distributor,F&B,Buôn Ma Thuột,23,Lost,11477000,2025-06-15,Giá cao,Trang
+L00256,2025-05-11,Partner - Distributor,Retail,Hà Nội,19,Lost,9481000,2025-06-13,Thiếu hoá đơn điện tử,Huy
+L00257,2025-05-20,Event,Beauty,Nha Trang,24,Lost,11976000,2025-06-29,Thiếu hoá đơn điện tử,Quân
+L00258,2025-05-05,Partner - Distributor,Retail,Đà Nẵng,34,Lost,16966000,2025-05-01,Không phản hồi,Trang
+L00259,2025-05-19,Inbound,Beauty,Buôn Ma Thuột,32,Lost,15968000,2025-07-06,Thiếu tích hợp kế toán,Linh
+L00260,2025-05-23,Partner - Bank,F&B,Hà Nội,15,Won,18000000,2025-06-14,,Linh
+L00261,2025-05-22,Outbound,F&B,Quy Nhơn,33,Lost,16467000,2025-06-09,Giá cao,Nam
+L00262,2025-05-05,Partner - Bank,Retail,TP.HCM,32,Won,15968000,2025-05-25,,Quân
+L00263,2025-05-04,Outbound,Retail,Cần Thơ,17,Lost,20400000,2025-06-19,Thiếu hoá đơn điện tử,Linh
+L00264,2025-05-04,Outbound,Pharmacy,Hà Nội,38,Lost,18962000,2025-06-12,Thiếu hoá đơn điện tử,Nam
+L00265,2025-05-25,Partner - Distributor,Retail,Vinh,37,Lost,44400000,2025-07-11,Không phản hồi,Linh
+L00266,2025-05-02,Outbound,F&B,Hải Phòng,39,Lost,46800000,2025-06-01,Thiếu hoá đơn điện tử,Quân
+L00267,2025-05-29,Outbound,Pharmacy,TP.HCM,37,Lost,44400000,2025-07-14,Thiếu hoá đơn điện tử,Nam
+L00268,2025-05-04,Outbound,Pharmacy,Hải Phòng,19,Lost,22800000,2025-06-22,Không phản hồi,Trang
+L00269,2025-05-08,Partner - Distributor,Beauty,TP.HCM,22,Won,26400000,2025-06-19,,Linh
+L00270,2025-05-15,Partner - Bank,Beauty,Buôn Ma Thuột,7,Lost,3493000,2025-06-17,Thiếu hoá đơn điện tử,Linh
+L00271,2025-05-13,Event,Retail,Hà Nội,25,Lost,12475000,2025-07-11,Giá cao,Linh
+L00272,2025-05-11,Partner - Bank,Beauty,Vinh,38,Lost,18962000,2025-05-21,Thiếu tích hợp kế toán,Trang
+L00273,2025-05-15,Inbound,Pharmacy,Cần Thơ,11,Won,13200000,2025-07-05,,Trang
+L00274,2025-05-11,Outbound,Pharmacy,TP.HCM,18,Lost,21600000,2025-06-14,Giá cao,Trang
+L00275,2025-05-10,Outbound,Beauty,Nha Trang,35,Lost,17465000,2025-06-18,Giá cao,Trang
+L00276,2025-05-18,Inbound,Beauty,TP.HCM,33,Lost,39600000,2025-06-21,Giá cao,Huy
+L00277,2025-05-23,Partner - Distributor,F&B,Quy Nhơn,39,Lost,19461000,2025-07-09,Thiếu tích hợp kế toán,Linh
+L00278,2025-05-04,Outbound,Retail,TP.HCM,9,Won,10800000,2025-07-01,,Linh
+L00279,2025-05-12,Partner - Bank,Beauty,TP.HCM,33,Lost,16467000,2025-06-09,Thiếu hoá đơn điện tử,Nam
+L00280,2025-05-11,Inbound,F&B,Đà Nẵng,10,Lost,12000000,2025-07-10,Không phản hồi,Trang
+L00281,2025-05-14,Outbound,F&B,TP.HCM,26,Lost,31200000,2025-06-21,Thiếu hoá đơn điện tử,Quân
+L00282,2025-05-23,Event,Retail,Quy Nhơn,12,Lost,14400000,2025-07-14,Giá cao,Huy
+L00283,2025-05-13,Inbound,Retail,Cần Thơ,11,Won,13200000,2025-06-19,,Nam
+L00284,2025-05-05,Inbound,Retail,Hà Nội,11,Won,13200000,2025-06-28,,Quân
+L00285,2025-05-29,Partner - Bank,F&B,Hà Nội,9,Lost,10800000,2025-07-05,Không phản hồi,Nam
+L00286,2025-05-30,Outbound,Retail,Vinh,13,Lost,6487000,2025-07-25,Chọn đối thủ,Trang
+L00287,2025-05-25,Outbound,F&B,TP.HCM,38,Lost,45600000,2025-07-13,Không phản hồi,Linh
+L00288,2025-05-19,Outbound,F&B,TP.HCM,6,Lost,7200000,2025-07-07,Thiếu hoá đơn điện tử,Linh
+L00289,2025-05-02,Inbound,Pharmacy,Hà Nội,9,Lost,4491000,2025-06-28,Thiếu hoá đơn điện tử,Nam
+L00290,2025-05-18,Partner - Distributor,F&B,Vinh,12,Lost,14400000,2025-07-01,Thiếu hoá đơn điện tử,Trang
+L00291,2025-05-13,Inbound,F&B,Đà Nẵng,35,Lost,42000000,2025-07-15,Không phản hồi,Trang
+L00292,2025-05-31,Partner - Distributor,F&B,TP.HCM,8,Won,9600000,2025-07-10,,Quân
+L00293,2025-05-30,Outbound,F&B,TP.HCM,32,Lost,15968000,2025-07-15,Không phản hồi,Trang
+L00294,2025-05-08,Inbound,Pharmacy,TP.HCM,14,Lost,6986000,2025-06-18,Thiếu tích hợp kế toán,Huy
+L00295,2025-05-11,Partner - Distributor,Retail,TP.HCM,37,Lost,44400000,2025-06-13,Thiếu hoá đơn điện tử,Huy
+L00296,2025-05-07,Outbound,F&B,Buôn Ma Thuột,28,Lost,13972000,2025-06-17,Giá cao,Nam
+L00297,2025-06-17,Outbound,F&B,TP.HCM,19,Lost,22800000,2025-08-03,Giá cao,Trang
+L00298,2025-06-29,Partner - Bank,Retail,TP.HCM,14,Lost,6986000,2025-07-27,Thiếu hoá đơn điện tử,Trang
+L00299,2025-06-02,Outbound,Pharmacy,Hà Nội,6,Lost,2994000,2025-07-16,Thiếu tích hợp kế toán,Nam
+L00300,2025-06-16,Event,Retail,Đà Nẵng,13,Lost,6487000,2025-08-25,Thiếu hoá đơn điện tử,Nam
+L00301,2025-06-09,Partner - Bank,F&B,Hà Nội,14,Won,6986000,2025-07-12,,Trang
+L00302,2025-06-01,Inbound,Retail,Hà Nội,30,Lost,36000000,2025-07-05,Chọn đối thủ,Trang
+L00303,2025-06-27,Outbound,Retail,Đà Nẵng,12,Lost,5988000,2025-08-05,Chọn đối thủ,Nam
+L00304,2025-06-27,Inbound,F&B,Đà Nẵng,12,Lost,14400000,2025-07-27,Không phản hồi,Nam
+L00305,2025-06-20,Outbound,Pharmacy,Hải Phòng,8,Lost,3992000,2025-08-27,Chọn đối thủ,Trang
+L00306,2025-06-26,Outbound,Beauty,Huế,6,Lost,7200000,2025-08-11,Không phản hồi,Quân
+L00307,2025-06-25,Event,Retail,Hà Nội,39,Lost,46800000,2025-08-25,Giá cao,Linh
+L00308,2025-06-12,Partner - Bank,Retail,Vinh,9,Lost,4491000,2025-07-25,Không phản hồi,Trang
+L00309,2025-06-16,Partner - Distributor,Retail,TP.HCM,6,Lost,2994000,2025-08-09,Thiếu hoá đơn điện tử,Quân
+L00310,2025-06-11,Partner - Distributor,Retail,Hà Nội,10,Lost,4990000,2025-08-05,Không phản hồi,Quân
+L00311,2025-06-07,Partner - Distributor,Beauty,TP.HCM,15,Lost,7485000,2025-07-19,Chọn đối thủ,Linh
+L00312,2025-06-05,Partner - Distributor,Retail,Nha Trang,6,Lost,2994000,2025-07-18,Thiếu hoá đơn điện tử,Nam
+L00313,2025-06-13,Inbound,F&B,TP.HCM,4,Lost,1996000,2025-07-28,Chọn đối thủ,Quân
+L00314,2025-06-20,Outbound,F&B,Hà Nội,19,Lost,9481000,2025-07-29,Thiếu hoá đơn điện tử,Trang
+L00315,2025-06-13,Event,F&B,Cần Thơ,35,Lost,17465000,2025-07-31,Giá cao,Nam
+L00316,2025-06-28,Inbound,Retail,Đà Nẵng,10,Won,12000000,2025-09-01,,Quân
+L00317,2025-06-24,Partner - Distributor,Retail,TP.HCM,15,Lost,18000000,2025-08-01,Thiếu hoá đơn điện tử,Linh
+L00318,2025-06-29,Outbound,Retail,Quy Nhơn,21,Lost,10479000,2025-08-14,Giá cao,Trang
+L00319,2025-06-09,Inbound,F&B,Huế,33,Lost,39600000,2025-07-23,Giá cao,Quân
+L00320,2025-06-30,Event,Beauty,Hà Nội,22,Lost,26400000,2025-09-11,Không phản hồi,Linh
+L00321,2025-06-14,Outbound,F&B,Hà Nội,20,Lost,24000000,2025-07-22,Thiếu tích hợp kế toán,Huy
+L00322,2025-06-03,Partner - Bank,Pharmacy,TP.HCM,30,Won,36000000,2025-06-23,,Linh
+L00323,2025-06-02,Inbound,Retail,Cần Thơ,11,Lost,5489000,2025-07-18,Giá cao,Trang
+L00324,2025-06-14,Inbound,Pharmacy,Hải Phòng,7,Lost,8400000,2025-08-17,Thiếu tích hợp kế toán,Trang
+L00325,2025-06-10,Partner - Distributor,Beauty,Vinh,3,Won,1497000,2025-06-30,,Trang
+L00326,2025-06-23,Inbound,Retail,Nha Trang,15,Lost,18000000,2025-07-16,Giá cao,Quân
+L00327,2025-06-20,Partner - Distributor,Retail,Nha Trang,21,Won,10479000,2025-08-05,,Trang
+L00328,2025-06-08,Partner - Distributor,Retail,TP.HCM,14,Lost,16800000,2025-08-02,Không phản hồi,Trang
+L00329,2025-06-19,Inbound,Retail,Vinh,32,Lost,38400000,2025-08-16,Thiếu hoá đơn điện tử,Quân
+L00330,2025-06-27,Partner - Bank,Retail,TP.HCM,35,Won,17465000,2025-07-10,,Quân
+L00331,2025-06-30,Inbound,F&B,Huế,37,Won,44400000,2025-08-12,,Nam
+L00332,2025-06-26,Inbound,Retail,Vinh,29,Lost,34800000,2025-08-11,Không phản hồi,Trang
+L00333,2025-06-04,Outbound,Pharmacy,Đà Nẵng,6,Lost,7200000,2025-07-05,Không phản hồi,Trang
+L00334,2025-06-01,Inbound,Pharmacy,TP.HCM,15,Lost,18000000,2025-07-07,Giá cao,Quân
+L00335,2025-06-12,Event,Retail,TP.HCM,18,Lost,8982000,2025-07-21,Thiếu hoá đơn điện tử,Nam
+L00336,2025-06-17,Outbound,Pharmacy,Huế,18,Won,8982000,2025-08-27,,Huy
+L00337,2025-06-13,Inbound,Retail,TP.HCM,26,Won,12974000,2025-08-04,,Linh
+L00338,2025-06-05,Partner - Distributor,F&B,TP.HCM,19,Lost,9481000,2025-07-14,Thiếu hoá đơn điện tử,Huy
+L00339,2025-06-03,Partner - Distributor,F&B,Nha Trang,31,Lost,37200000,2025-06-17,Không phản hồi,Huy
+L00340,2025-06-03,Inbound,Beauty,Hà Nội,12,Lost,5988000,2025-08-08,Thiếu tích hợp kế toán,Linh
+L00341,2025-06-08,Outbound,F&B,Vinh,18,Lost,21600000,2025-08-09,Chọn đối thủ,Quân
+L00342,2025-06-07,Inbound,Pharmacy,TP.HCM,25,Won,12475000,2025-08-02,,Nam
+L00343,2025-06-29,Inbound,Retail,Hải Phòng,29,Lost,34800000,2025-08-23,Thiếu hoá đơn điện tử,Nam
+L00344,2025-06-04,Outbound,Pharmacy,Buôn Ma Thuột,21,Lost,25200000,2025-07-05,Giá cao,Nam
+L00345,2025-06-17,Outbound,Beauty,Đà Nẵng,37,Lost,44400000,2025-08-08,Thiếu tích hợp kế toán,Linh
+L00346,2025-06-02,Outbound,F&B,TP.HCM,12,Lost,14400000,2025-07-18,Thiếu tích hợp kế toán,Huy
+L00347,2025-06-02,Event,Retail,Hà Nội,15,Lost,18000000,2025-07-30,Giá cao,Huy
+L00348,2025-06-23,Inbound,Retail,Nha Trang,26,Won,31200000,2025-08-25,,Quân
+L00349,2025-06-04,Outbound,Pharmacy,TP.HCM,12,Lost,14400000,2025-08-19,Không phản hồi,Linh
+L00350,2025-06-21,Event,Beauty,Hà Nội,11,Lost,5489000,2025-08-12,Không phản hồi,Quân
+L00351,2025-06-20,Inbound,Beauty,Nha Trang,37,Lost,18463000,2025-07-11,Thiếu hoá đơn điện tử,Huy
+L00352,2025-06-29,Outbound,Beauty,Đà Nẵng,21,Lost,10479000,2025-08-29,Thiếu hoá đơn điện tử,Trang
+L00353,2025-06-10,Outbound,Retail,Hà Nội,38,Lost,45600000,2025-07-31,Thiếu hoá đơn điện tử,Quân
+L00354,2025-06-24,Outbound,Retail,Hà Nội,39,Lost,46800000,2025-08-28,Không phản hồi,Quân
+L00355,2025-06-20,Inbound,Beauty,TP.HCM,31,Lost,37200000,2025-08-24,Không phản hồi,Nam
+L00356,2025-06-21,Outbound,F&B,Đà Nẵng,10,Lost,4990000,2025-08-15,Không phản hồi,Nam
+L00357,2025-06-25,Inbound,F&B,TP.HCM,18,Lost,21600000,2025-08-19,Giá cao,Huy
+L00358,2025-06-03,Partner - Bank,Pharmacy,Đà Nẵng,20,Won,9980000,2025-07-24,,Quân
+L00359,2025-06-26,Inbound,Beauty,Cần Thơ,30,Lost,14970000,2025-08-30,Chọn đối thủ,Quân
+L00360,2025-06-19,Partner - Distributor,F&B,Hà Nội,22,Lost,26400000,2025-07-25,Chọn đối thủ,Huy
+L00361,2025-07-11,Outbound,F&B,Hà Nội,38,Lost,18962000,2025-08-23,Thiếu tích hợp kế toán,Quân
+L00362,2025-07-05,Inbound,F&B,Hải Phòng,25,Lost,12475000,2025-08-28,Chọn đối thủ,Linh
+L00363,2025-07-25,Outbound,Retail,TP.HCM,11,Lost,13200000,2025-09-11,Thiếu hoá đơn điện tử,Nam
+L00364,2025-07-06,Outbound,Retail,TP.HCM,28,Lost,33600000,2025-08-29,Giá cao,Quân
+L00365,2025-07-25,Outbound,Retail,TP.HCM,7,Lost,3493000,2025-09-18,Chọn đối thủ,Huy
+L00366,2025-07-10,Event,F&B,Cần Thơ,17,Lost,8483000,2025-09-08,Thiếu tích hợp kế toán,Huy
+L00367,2025-07-10,Partner - Distributor,Pharmacy,TP.HCM,24,Won,28800000,2025-08-19,,Nam
+L00368,2025-07-12,Event,Retail,Hải Phòng,14,Lost,6986000,2025-08-11,Giá cao,Quân
+L00369,2025-07-02,Event,Retail,Đà Nẵng,11,Lost,13200000,2025-08-13,Thiếu hoá đơn điện tử,Linh
+L00370,2025-07-12,Inbound,F&B,Huế,10,Lost,4990000,2025-09-08,Giá cao,Nam
+L00371,2025-07-05,Partner - Bank,Retail,TP.HCM,8,Lost,9600000,2025-08-21,Thiếu hoá đơn điện tử,Trang
+L00372,2025-07-10,Outbound,F&B,Hà Nội,6,Lost,7200000,2025-09-04,Chọn đối thủ,Nam
+L00373,2025-07-07,Partner - Distributor,F&B,Hà Nội,25,Lost,30000000,2025-08-18,Thiếu hoá đơn điện tử,Linh
+L00374,2025-07-30,Partner - Distributor,Retail,TP.HCM,37,Lost,44400000,2025-09-19,Giá cao,Quân
+L00375,2025-07-23,Partner - Distributor,F&B,Hà Nội,10,Won,12000000,2025-08-27,,Linh
+L00376,2025-07-09,Partner - Distributor,F&B,Huế,29,Lost,14471000,2025-08-09,Chọn đối thủ,Nam
+L00377,2025-07-08,Inbound,Retail,Hà Nội,13,Lost,15600000,2025-08-08,Thiếu tích hợp kế toán,Trang
+L00378,2025-07-31,Inbound,Retail,Cần Thơ,18,Lost,21600000,2025-09-15,Thiếu hoá đơn điện tử,Huy
+L00379,2025-07-12,Event,Retail,TP.HCM,9,Won,10800000,2025-08-30,,Linh
+L00380,2025-07-20,Outbound,Pharmacy,Cần Thơ,5,Lost,2495000,2025-09-05,Thiếu tích hợp kế toán,Linh
+L00381,2025-07-19,Partner - Distributor,Retail,Vinh,13,Lost,15600000,2025-07-31,Không phản hồi,Quân
+L00382,2025-07-08,Event,F&B,Hà Nội,24,Lost,28800000,2025-08-15,Thiếu tích hợp kế toán,Quân
+L00383,2025-07-26,Inbound,Retail,Đà Nẵng,30,Lost,36000000,2025-09-29,Chọn đối thủ,Trang
+L00384,2025-07-12,Event,Retail,Nha Trang,3,Won,3600000,2025-08-30,,Trang
+L00385,2025-07-31,Event,Pharmacy,TP.HCM,30,Won,14970000,2025-09-23,,Huy
+L00386,2025-07-01,Event,Retail,Quy Nhơn,8,Won,9600000,2025-08-04,,Linh
+L00387,2025-07-02,Partner - Distributor,Beauty,Đà Nẵng,23,Lost,27600000,2025-07-22,Thiếu tích hợp kế toán,Huy
+L00388,2025-07-21,Inbound,Retail,TP.HCM,26,Lost,31200000,2025-09-09,Chọn đối thủ,Linh
+L00389,2025-07-21,Inbound,Retail,TP.HCM,38,Lost,18962000,2025-08-30,Thiếu hoá đơn điện tử,Quân
+L00390,2025-07-07,Inbound,Beauty,Hà Nội,24,Lost,11976000,2025-09-02,Thiếu hoá đơn điện tử,Linh
+L00391,2025-07-13,Inbound,Beauty,Hà Nội,23,Lost,11477000,2025-08-16,Không phản hồi,Huy
+L00392,2025-07-05,Inbound,F&B,Huế,35,Lost,17465000,2025-08-31,Giá cao,Quân
+L00393,2025-07-29,Event,Retail,Nha Trang,15,Lost,7485000,2025-09-26,Thiếu hoá đơn điện tử,Quân
+L00394,2025-07-26,Event,F&B,Hà Nội,17,Won,8483000,2025-09-27,,Quân
+L00395,2025-07-17,Partner - Distributor,F&B,Hà Nội,26,Lost,12974000,2025-08-15,Không phản hồi,Nam
+L00396,2025-07-15,Outbound,Retail,Vinh,15,Lost,18000000,2025-09-03,Chọn đối thủ,Linh
+L00397,2025-07-05,Inbound,Beauty,Huế,7,Lost,3493000,2025-08-22,Thiếu hoá đơn điện tử,Nam
+L00398,2025-07-06,Partner - Bank,Beauty,Hà Nội,14,Lost,6986000,2025-08-06,Giá cao,Linh
+L00399,2025-07-28,Outbound,Pharmacy,TP.HCM,9,Lost,4491000,2025-09-05,Thiếu hoá đơn điện tử,Huy
+L00400,2025-07-14,Partner - Distributor,F&B,Huế,37,Won,18463000,2025-08-09,,Huy
+L00401,2025-07-15,Partner - Bank,Beauty,Hải Phòng,39,Lost,46800000,2025-08-15,Giá cao,Huy
+L00402,2025-07-22,Partner - Distributor,F&B,Buôn Ma Thuột,16,Lost,7984000,2025-08-20,Thiếu hoá đơn điện tử,Nam
+L00403,2025-07-22,Outbound,Pharmacy,Cần Thơ,16,Lost,19200000,2025-09-13,Giá cao,Nam
+L00404,2025-07-03,Outbound,F&B,Vinh,9,Lost,4491000,2025-07-31,Giá cao,Nam
+L00405,2025-07-08,Outbound,Retail,Hà Nội,22,Lost,10978000,2025-08-19,Không phản hồi,Linh
+L00406,2025-07-18,Event,Retail,Huế,27,Lost,32400000,2025-09-03,Thiếu tích hợp kế toán,Trang
+L00407,2025-07-19,Inbound,Retail,Nha Trang,24,Lost,28800000,2025-09-10,Chọn đối thủ,Quân
+L00408,2025-07-18,Inbound,Retail,Hà Nội,3,Lost,1497000,2025-09-28,Giá cao,Huy
+L00409,2025-07-14,Partner - Distributor,F&B,Đà Nẵng,25,Lost,12475000,2025-08-24,Không phản hồi,Huy
+L00410,2025-07-16,Event,F&B,Đà Nẵng,27,Lost,13473000,2025-09-20,Không phản hồi,Linh
+L00411,2025-07-11,Partner - Bank,Beauty,Cần Thơ,22,Lost,26400000,2025-07-07,Chọn đối thủ,Nam
+L00412,2025-07-15,Event,Retail,TP.HCM,23,Lost,27600000,2025-09-04,Thiếu hoá đơn điện tử,Huy
+L00413,2025-07-05,Partner - Bank,Retail,TP.HCM,25,Lost,12475000,2025-07-15,Thiếu hoá đơn điện tử,Nam
+L00414,2025-07-08,Inbound,Beauty,TP.HCM,3,Won,3600000,2025-09-19,,Trang
+L00415,2025-07-16,Inbound,F&B,Đà Nẵng,37,Lost,18463000,2025-09-01,Thiếu tích hợp kế toán,Nam
+L00416,2025-07-28,Inbound,Pharmacy,Buôn Ma Thuột,12,Lost,5988000,2025-09-20,Thiếu hoá đơn điện tử,Nam
+L00417,2025-07-03,Inbound,F&B,Hà Nội,34,Lost,16966000,2025-08-08,Thiếu hoá đơn điện tử,Trang
+L00418,2025-07-06,Outbound,Retail,Huế,28,Lost,13972000,2025-07-29,Thiếu tích hợp kế toán,Trang
+L00419,2025-07-06,Partner - Distributor,F&B,Hà Nội,14,Lost,6986000,2025-07-30,Không phản hồi,Huy
+L00420,2025-07-13,Partner - Distributor,F&B,TP.HCM,20,Lost,24000000,2025-08-15,Giá cao,Nam
+L00421,2025-07-27,Outbound,Pharmacy,Hà Nội,22,Lost,26400000,2025-09-06,Thiếu hoá đơn điện tử,Nam
+L00422,2025-07-31,Inbound,F&B,Buôn Ma Thuột,40,Lost,48000000,2025-09-18,Giá cao,Huy
+L00423,2025-07-14,Inbound,F&B,Huế,34,Lost,40800000,2025-09-11,Thiếu hoá đơn điện tử,Nam
+L00424,2025-07-25,Outbound,Pharmacy,Đà Nẵng,32,Lost,15968000,2025-10-03,Không phản hồi,Huy
+L00425,2025-07-21,Inbound,F&B,TP.HCM,39,Lost,19461000,2025-09-17,Thiếu hoá đơn điện tử,Trang
+L00426,2025-08-04,Inbound,Retail,Cần Thơ,31,Lost,37200000,2025-10-04,Không phản hồi,Linh
+L00427,2025-08-02,Event,F&B,TP.HCM,13,Lost,15600000,2025-09-02,Không phản hồi,Trang
+L00428,2025-08-28,Outbound,Beauty,Hải Phòng,10,Lost,12000000,2025-10-19,Không phản hồi,Quân
+L00429,2025-08-01,Outbound,Retail,TP.HCM,21,Lost,25200000,2025-10-05,Thiếu hoá đơn điện tử,Huy
+L00430,2025-08-19,Outbound,Retail,TP.HCM,12,Lost,14400000,2025-10-16,Thiếu hoá đơn điện tử,Quân
+L00431,2025-08-09,Outbound,Pharmacy,Hà Nội,11,Lost,13200000,2025-10-12,Thiếu tích hợp kế toán,Nam
+L00432,2025-08-07,Outbound,F&B,Hà Nội,25,Lost,12475000,2025-09-23,Thiếu tích hợp kế toán,Huy
+L00433,2025-08-03,Partner - Bank,Pharmacy,Vinh,36,Won,17964000,2025-08-13,,Linh
+L00434,2025-08-13,Outbound,Beauty,Hà Nội,27,Lost,13473000,2025-10-01,Chọn đối thủ,Nam
+L00435,2025-08-21,Outbound,F&B,Hải Phòng,35,Lost,42000000,2025-10-13,Không phản hồi,Quân
+L00436,2025-08-25,Partner - Bank,Pharmacy,Đà Nẵng,39,Won,19461000,2025-10-23,,Trang
+L00437,2025-08-14,Partner - Distributor,F&B,TP.HCM,20,Won,24000000,2025-09-16,,Linh
+L00438,2025-08-14,Partner - Distributor,Retail,Hà Nội,18,Won,8982000,2025-09-14,,Trang
+L00439,2025-08-15,Inbound,Retail,Cần Thơ,29,Lost,34800000,2025-09-17,Giá cao,Quân
+L00440,2025-08-09,Event,Retail,TP.HCM,18,Lost,21600000,2025-10-13,Thiếu tích hợp kế toán,Trang
+L00441,2025-08-28,Event,F&B,Vinh,17,Lost,8483000,2025-11-12,Giá cao,Linh
+L00442,2025-08-19,Outbound,Retail,Hà Nội,25,Lost,30000000,2025-10-08,Giá cao,Nam
+L00443,2025-08-16,Inbound,Pharmacy,TP.HCM,34,Lost,16966000,2025-09-20,Chọn đối thủ,Linh
+L00444,2025-08-11,Partner - Bank,F&B,Hà Nội,24,Lost,28800000,2025-09-15,Giá cao,Nam
+L00445,2025-08-18,Outbound,Beauty,Hà Nội,31,Lost,15469000,2025-09-25,Thiếu hoá đơn điện tử,Huy
+L00446,2025-08-16,Outbound,F&B,Vinh,28,Won,33600000,2025-09-28,,Trang
+L00447,2025-08-06,Outbound,F&B,TP.HCM,7,Lost,3493000,2025-09-07,Giá cao,Huy
+L00448,2025-08-09,Outbound,Beauty,Buôn Ma Thuột,10,Lost,4990000,2025-09-24,Chọn đối thủ,Nam
+L00449,2025-08-07,Outbound,Beauty,TP.HCM,24,Lost,28800000,2025-09-08,Thiếu hoá đơn điện tử,Linh
+L00450,2025-08-25,Inbound,Pharmacy,Hà Nội,23,Lost,11477000,2025-10-06,Thiếu tích hợp kế toán,Quân
+L00451,2025-08-13,Inbound,Retail,Hà Nội,27,Lost,32400000,2025-09-27,Không phản hồi,Nam
+L00452,2025-08-01,Partner - Bank,Retail,Hà Nội,15,Lost,18000000,2025-09-02,Không phản hồi,Nam
+L00453,2025-08-06,Inbound,Retail,Hà Nội,39,Lost,19461000,2025-09-13,Thiếu tích hợp kế toán,Quân
+L00454,2025-08-20,Inbound,Pharmacy,TP.HCM,32,Won,15968000,2025-10-03,,Trang
+L00455,2025-08-22,Inbound,Retail,TP.HCM,35,Lost,42000000,2025-10-04,Thiếu hoá đơn điện tử,Quân
+L00456,2025-08-16,Outbound,F&B,Hải Phòng,34,Lost,16966000,2025-09-24,Giá cao,Trang
+L00457,2025-08-05,Outbound,F&B,Cần Thơ,35,Lost,42000000,2025-10-14,Giá cao,Nam
+L00458,2025-08-23,Outbound,Retail,TP.HCM,10,Lost,4990000,2025-10-16,Chọn đối thủ,Quân
+L00459,2025-08-13,Outbound,F&B,TP.HCM,5,Lost,2495000,2025-09-16,Thiếu hoá đơn điện tử,Linh
+L00460,2025-08-12,Outbound,F&B,TP.HCM,9,Lost,4491000,2025-09-19,Giá cao,Linh
+L00461,2025-08-23,Outbound,Beauty,Nha Trang,8,Lost,9600000,2025-10-24,Thiếu hoá đơn điện tử,Trang
+L00462,2025-08-07,Inbound,Beauty,Huế,6,Lost,2994000,2025-09-22,Chọn đối thủ,Huy
+L00463,2025-08-04,Partner - Bank,Retail,Vinh,29,Lost,34800000,2025-08-21,Không phản hồi,Huy
+L00464,2025-08-02,Inbound,F&B,Nha Trang,31,Lost,15469000,2025-09-19,Thiếu tích hợp kế toán,Trang
+L00465,2025-08-27,Partner - Bank,F&B,Hà Nội,18,Lost,21600000,2025-10-08,Thiếu hoá đơn điện tử,Huy
+L00466,2025-08-07,Outbound,Beauty,Hà Nội,10,Won,4990000,2025-10-11,,Huy
+L00467,2025-08-11,Outbound,Beauty,TP.HCM,38,Lost,18962000,2025-10-17,Thiếu tích hợp kế toán,Nam
+L00468,2025-08-27,Outbound,Retail,TP.HCM,25,Won,30000000,2025-10-01,,Linh
+L00469,2025-08-03,Outbound,F&B,TP.HCM,3,Lost,3600000,2025-09-20,Không phản hồi,Quân
+L00470,2025-08-02,Event,F&B,Hà Nội,12,Lost,5988000,2025-09-28,Thiếu tích hợp kế toán,Linh
+L00471,2025-08-11,Inbound,Retail,Đà Nẵng,8,Lost,3992000,2025-10-14,Giá cao,Linh
+L00472,2025-08-23,Event,F&B,Vinh,18,Lost,8982000,2025-10-10,Không phản hồi,Huy
+L00473,2025-08-11,Partner - Bank,Retail,TP.HCM,25,Won,30000000,2025-09-04,,Huy
+L00474,2025-09-05,Inbound,Retail,Đà Nẵng,33,Lost,39600000,2025-11-12,Thiếu tích hợp kế toán,Linh
+L00475,2025-09-01,Inbound,Retail,TP.HCM,13,Lost,15600000,2025-11-10,Thiếu hoá đơn điện tử,Nam
+L00476,2025-09-13,Partner - Bank,F&B,Quy Nhơn,12,Lost,14400000,2025-10-16,Chọn đối thủ,Nam
+L00477,2025-09-22,Event,Retail,Hải Phòng,10,Won,12000000,2025-12-04,,Nam
+L00478,2025-09-23,Outbound,Pharmacy,Hải Phòng,6,Lost,2994000,2025-11-04,Chọn đối thủ,Quân
+L00479,2025-09-21,Outbound,F&B,Hà Nội,20,Lost,24000000,2025-11-22,Không phản hồi,Quân
+L00480,2025-09-17,Partner - Distributor,Retail,Hà Nội,29,Lost,14471000,2025-11-04,Thiếu hoá đơn điện tử,Quân
+L00481,2025-09-13,Inbound,Retail,Hà Nội,19,Lost,22800000,2025-11-05,Thiếu hoá đơn điện tử,Quân
+L00482,2025-09-29,Inbound,Retail,Đà Nẵng,7,Lost,3493000,2025-10-28,Chọn đối thủ,Quân
+L00483,2025-09-23,Inbound,Retail,TP.HCM,33,Won,16467000,2025-11-07,,Quân
+L00484,2025-09-13,Inbound,Retail,Vinh,7,Lost,3493000,2025-10-29,Chọn đối thủ,Nam
+L00485,2025-09-02,Event,Beauty,TP.HCM,11,Lost,5489000,2025-10-30,Thiếu hoá đơn điện tử,Quân
+L00486,2025-09-12,Outbound,Retail,Nha Trang,5,Lost,2495000,2025-11-07,Giá cao,Huy
+L00487,2025-09-20,Inbound,Beauty,Hải Phòng,25,Lost,12475000,2025-11-12,Không phản hồi,Quân
+L00488,2025-09-18,Partner - Distributor,Pharmacy,TP.HCM,26,Lost,12974000,2025-11-21,Không phản hồi,Linh
+L00489,2025-09-14,Partner - Distributor,Pharmacy,TP.HCM,26,Lost,31200000,2025-10-31,Chọn đối thủ,Huy
+L00490,2025-09-26,Event,F&B,TP.HCM,21,Lost,10479000,2025-11-09,Giá cao,Linh
+L00491,2025-09-22,Inbound,Beauty,Buôn Ma Thuột,27,Lost,13473000,2025-10-22,Giá cao,Linh
+L00492,2025-09-22,Outbound,Beauty,Đà Nẵng,22,Lost,10978000,2025-12-01,Thiếu tích hợp kế toán,Linh
+L00493,2025-09-13,Outbound,Retail,Cần Thơ,34,Lost,40800000,2025-11-07,Thiếu hoá đơn điện tử,Nam
+L00494,2025-09-05,Inbound,Retail,Nha Trang,21,Lost,25200000,2025-10-23,Thiếu hoá đơn điện tử,Quân
+L00495,2025-09-15,Inbound,F&B,TP.HCM,18,Lost,8982000,2025-11-11,Không phản hồi,Quân
+L00496,2025-09-09,Outbound,Retail,Hà Nội,13,Lost,15600000,2025-10-10,Thiếu hoá đơn điện tử,Nam
+L00497,2025-09-10,Event,F&B,Nha Trang,9,Lost,4491000,2025-11-05,Không phản hồi,Trang
+L00498,2025-09-22,Event,F&B,Buôn Ma Thuột,12,Lost,14400000,2025-11-01,Thiếu hoá đơn điện tử,Nam
+L00499,2025-09-16,Outbound,F&B,Cần Thơ,7,Lost,8400000,2025-11-14,Thiếu hoá đơn điện tử,Quân
+L00500,2025-09-13,Partner - Distributor,F&B,TP.HCM,36,Won,43200000,2025-10-23,,Huy
+L00501,2025-09-18,Inbound,Pharmacy,Hà Nội,10,Won,12000000,2025-10-21,,Nam
+L00502,2025-09-07,Inbound,Beauty,TP.HCM,36,Lost,17964000,2025-10-26,Giá cao,Huy
+L00503,2025-09-14,Outbound,F&B,Hà Nội,31,Lost,15469000,2025-11-10,Thiếu hoá đơn điện tử,Linh
+L00504,2025-09-13,Outbound,F&B,Đà Nẵng,22,Lost,26400000,2025-10-24,Không phản hồi,Trang
+L00505,2025-09-21,Event,F&B,Hà Nội,18,Lost,8982000,2025-11-01,Thiếu hoá đơn điện tử,Trang
+L00506,2025-09-16,Inbound,F&B,Vinh,3,Lost,1497000,2025-10-16,Không phản hồi,Nam
+L00507,2025-09-14,Outbound,F&B,Cần Thơ,31,Lost,15469000,2025-10-27,Không phản hồi,Trang
+L00508,2025-09-21,Outbound,Retail,Quy Nhơn,29,Lost,14471000,2025-10-26,Thiếu hoá đơn điện tử,Quân
+L00509,2025-09-05,Partner - Distributor,Pharmacy,TP.HCM,28,Won,33600000,2025-10-02,,Linh
+L00510,2025-09-10,Outbound,Retail,Hải Phòng,24,Lost,11976000,2025-11-17,Giá cao,Nam
+L00511,2025-09-30,Partner - Distributor,Retail,TP.HCM,40,Lost,19960000,2025-11-01,Không phản hồi,Linh
+L00512,2025-09-02,Inbound,F&B,Đà Nẵng,7,Lost,3493000,2025-10-11,Thiếu hoá đơn điện tử,Huy
+L00513,2025-09-04,Partner - Distributor,Retail,Hải Phòng,39,Lost,46800000,2025-10-12,Giá cao,Linh
+L00514,2025-09-30,Inbound,Retail,Hải Phòng,6,Won,2994000,2025-11-27,,Huy
+L00515,2025-09-27,Inbound,Pharmacy,Hà Nội,33,Lost,39600000,2025-12-03,Không phản hồi,Trang
+L00516,2025-09-15,Inbound,F&B,Đà Nẵng,29,Lost,34800000,2025-11-07,Chọn đối thủ,Quân
+L00517,2025-09-16,Partner - Distributor,Retail,Đà Nẵng,26,Won,12974000,2025-10-13,,Huy
+L00518,2025-09-02,Partner - Bank,Retail,TP.HCM,33,Lost,16467000,2025-09-29,Giá cao,Linh
+L00519,2025-09-13,Outbound,Retail,Quy Nhơn,7,Lost,8400000,2025-10-25,Chọn đối thủ,Trang
+L00520,2025-09-02,Event,Pharmacy,Hà Nội,19,Won,22800000,2025-09-28,,Nam
+L00521,2025-09-04,Partner - Bank,Retail,Cần Thơ,31,Lost,15469000,2025-10-16,Giá cao,Huy
+L00522,2025-10-11,Inbound,Pharmacy,Đà Nẵng,15,Lost,18000000,2025-12-15,Thiếu hoá đơn điện tử,Quân
+L00523,2025-10-07,Outbound,Retail,TP.HCM,4,Lost,1996000,2025-12-05,Thiếu tích hợp kế toán,Trang
+L00524,2025-10-08,Outbound,Retail,TP.HCM,32,Lost,38400000,2025-11-25,Thiếu tích hợp kế toán,Huy
+L00525,2025-10-21,Inbound,Retail,TP.HCM,18,Lost,21600000,2025-11-29,Thiếu hoá đơn điện tử,Trang
+L00526,2025-10-25,Outbound,Retail,TP.HCM,32,Lost,15968000,2025-12-18,Chọn đối thủ,Huy
+L00527,2025-10-27,Event,Pharmacy,Buôn Ma Thuột,40,Lost,19960000,2025-12-16,Không phản hồi,Huy
+L00528,2025-10-18,Event,Retail,Hải Phòng,28,Lost,13972000,2025-12-03,Giá cao,Quân
+L00529,2025-10-14,Inbound,Retail,Buôn Ma Thuột,26,Lost,12974000,2025-12-06,Thiếu hoá đơn điện tử,Nam
+L00530,2025-10-13,Outbound,Retail,Vinh,20,Lost,24000000,2025-12-10,Thiếu hoá đơn điện tử,Quân
+L00531,2025-10-11,Inbound,Retail,Đà Nẵng,22,Lost,26400000,2025-12-19,Thiếu hoá đơn điện tử,Trang
+L00532,2025-10-18,Event,Retail,TP.HCM,28,Lost,33600000,2025-12-07,Thiếu hoá đơn điện tử,Huy
+L00533,2025-10-06,Event,Pharmacy,Hải Phòng,34,Won,40800000,2025-11-16,,Quân
+L00534,2025-10-27,Outbound,Retail,TP.HCM,7,Lost,8400000,2025-12-28,Giá cao,Huy
+L00535,2025-10-02,Partner - Distributor,F&B,TP.HCM,10,Lost,12000000,2025-10-30,Thiếu hoá đơn điện tử,Linh
+L00536,2025-10-13,Event,Retail,Hà Nội,22,Won,26400000,2025-11-16,,Linh
+L00537,2025-10-25,Outbound,F&B,Hà Nội,18,Lost,21600000,2025-12-07,Thiếu tích hợp kế toán,Quân
+L00538,2025-10-19,Outbound,F&B,Đà Nẵng,10,Lost,4990000,,Giá cao,Linh
+L00539,2025-10-11,Partner - Distributor,Retail,Hà Nội,33,Won,39600000,2025-11-22,,Huy
+L00540,2025-10-28,Outbound,Pharmacy,TP.HCM,36,Lost,43200000,2025-12-03,Chọn đối thủ,Linh
+L00541,2025-10-19,Partner - Distributor,Pharmacy,Hải Phòng,14,Lost,16800000,2025-11-24,Không phản hồi,Trang
+L00542,2025-10-22,Partner - Distributor,Retail,TP.HCM,3,Won,3600000,2025-11-23,,Nam
+L00543,2025-10-12,Outbound,Retail,Nha Trang,31,Won,15469000,2025-12-10,,Huy
+L00544,2025-10-11,Inbound,F&B,Vinh,7,Lost,8400000,2025-11-23,Chọn đối thủ,Nam
+L00545,2025-10-20,Outbound,Pharmacy,Hà Nội,32,Lost,38400000,2025-12-06,Không phản hồi,Nam
+L00546,2025-10-22,Inbound,F&B,Hải Phòng,19,Lost,22800000,2025-11-26,Chọn đối thủ,Nam
+L00547,2025-10-27,Outbound,Beauty,TP.HCM,8,Lost,3992000,2025-12-20,Chọn đối thủ,Huy
+L00548,2025-10-13,Event,Retail,TP.HCM,23,Lost,11477000,2025-12-07,Thiếu hoá đơn điện tử,Linh
+L00549,2025-10-10,Event,Pharmacy,TP.HCM,22,Lost,26400000,2025-11-29,Không phản hồi,Nam
+L00550,2025-10-03,Outbound,F&B,Hà Nội,5,Lost,2495000,2025-10-30,Giá cao,Huy
+L00551,2025-10-04,Outbound,Retail,TP.HCM,33,Lost,39600000,2025-11-08,Giá cao,Huy
+L00552,2025-10-10,Partner - Bank,Beauty,Hà Nội,17,Lost,20400000,2025-11-16,Thiếu hoá đơn điện tử,Trang
+L00553,2025-10-28,Partner - Distributor,F&B,Vinh,3,Lost,1497000,2025-11-28,Chọn đối thủ,Nam
+L00554,2025-10-01,Inbound,F&B,Quy Nhơn,26,Lost,31200000,2025-11-07,Thiếu hoá đơn điện tử,Linh
+L00555,2025-10-08,Outbound,F&B,Hà Nội,3,Lost,1497000,2025-11-25,Chọn đối thủ,Huy
+L00556,2025-10-27,Partner - Bank,F&B,Hà Nội,29,Lost,14471000,2025-12-03,Thiếu hoá đơn điện tử,Trang
+L00557,2025-10-21,Event,Retail,Nha Trang,35,Lost,42000000,2025-12-19,Thiếu hoá đơn điện tử,Quân
+L00558,2025-10-26,Partner - Distributor,Retail,TP.HCM,40,Lost,19960000,2025-12-10,Thiếu tích hợp kế toán,Nam
+L00559,2025-10-25,Inbound,F&B,TP.HCM,38,Lost,45600000,2025-12-22,Giá cao,Nam
+L00560,2025-10-14,Event,Pharmacy,Cần Thơ,28,Won,33600000,2025-12-19,,Huy
+L00561,2025-10-02,Inbound,Retail,Hà Nội,37,Won,18463000,2025-12-06,,Trang
+L00562,2025-10-18,Partner - Distributor,Pharmacy,TP.HCM,10,Won,4990000,2025-11-24,,Quân
+L00563,2025-10-27,Outbound,Pharmacy,Hà Nội,13,Lost,15600000,2025-12-09,Thiếu hoá đơn điện tử,Quân
+L00564,2025-10-10,Outbound,Pharmacy,Vinh,20,Lost,24000000,2025-11-23,Không phản hồi,Quân
+L00565,2025-10-30,Partner - Bank,F&B,Buôn Ma Thuột,19,Lost,9481000,2025-12-12,Không phản hồi,Linh
+L00566,2025-10-23,Outbound,F&B,TP.HCM,25,Lost,12475000,2025-12-09,Thiếu hoá đơn điện tử,Quân
+L00567,2025-10-01,Event,Pharmacy,Hà Nội,4,Lost,1996000,2025-11-07,Thiếu tích hợp kế toán,Linh
+L00568,2025-10-04,Inbound,Retail,TP.HCM,8,Won,3992000,2025-11-17,,Trang
+L00569,2025-10-02,Outbound,Pharmacy,Quy Nhơn,32,Won,38400000,2025-11-13,,Nam
+L00570,2025-10-19,Inbound,Beauty,Đà Nẵng,25,Lost,12475000,2025-12-24,Giá cao,Linh
+L00571,2025-10-28,Partner - Bank,Pharmacy,Vinh,31,Lost,37200000,2025-12-10,Không phản hồi,Nam
+L00572,2025-10-26,Inbound,Retail,Huế,10,Lost,4990000,2025-12-01,Không phản hồi,Nam
+L00573,2025-10-28,Event,F&B,Huế,31,Lost,15469000,2025-12-11,Thiếu hoá đơn điện tử,Linh
+L00574,2025-10-23,Partner - Distributor,Pharmacy,TP.HCM,14,Won,16800000,2025-12-16,,Linh
+L00575,2025-10-20,Inbound,F&B,Hà Nội,8,Lost,9600000,2025-12-11,Không phản hồi,Trang
+L00576,2025-10-02,Inbound,Beauty,Hà Nội,8,Lost,9600000,2025-12-04,Chọn đối thủ,Linh
+L00577,2025-10-07,Inbound,F&B,Hà Nội,33,Lost,39600000,2025-12-03,Không phản hồi,Linh
+L00578,2025-10-17,Partner - Bank,F&B,Vinh,24,Lost,28800000,2025-10-28,Thiếu hoá đơn điện tử,Quân
+L00579,2025-10-14,Inbound,Retail,Quy Nhơn,36,Lost,43200000,2025-12-23,Không phản hồi,Quân
+L00580,2025-10-02,Inbound,Beauty,Cần Thơ,8,Lost,9600000,2025-12-09,Giá cao,Huy
+L00581,2025-10-04,Outbound,Retail,Hải Phòng,13,Lost,15600000,2025-11-07,Không phản hồi,Huy
+L00582,2025-10-28,Partner - Bank,Beauty,TP.HCM,12,Lost,5988000,2025-12-12,Giá cao,Nam
+L00583,2025-10-19,Inbound,Retail,Hà Nội,27,Lost,32400000,2025-12-02,Thiếu tích hợp kế toán,Quân
+L00584,2025-10-29,Outbound,F&B,Hà Nội,40,Lost,19960000,2025-12-16,Thiếu hoá đơn điện tử,Linh
+L00585,2025-11-01,Outbound,Beauty,TP.HCM,16,Lost,7984000,2025-12-14,Chọn đối thủ,Trang
+L00586,2025-11-10,Partner - Bank,Pharmacy,Vinh,3,New,3600000,,,Nam
+L00587,2025-11-04,Inbound,Beauty,Hải Phòng,39,Qualified,46800000,,,Linh
+L00588,2025-11-26,Partner - Distributor,Retail,Hà Nội,31,Lost,15469000,2025-12-14,Thiếu hoá đơn điện tử,Huy
+L00589,2025-11-14,Outbound,Pharmacy,Vinh,21,Won,25200000,,,Quân
+L00590,2025-11-04,Outbound,F&B,Vinh,33,Lost,16467000,2025-12-25,Không phản hồi,Huy
+L00591,2025-11-02,Outbound,Pharmacy,TP.HCM,32,Qualified,38400000,,,Nam
+L00592,2025-11-12,Partner - Bank,F&B,Hà Nội,6,Demo,7200000,,,Huy
+L00593,2025-11-06,Outbound,Retail,TP.HCM,30,Lost,14970000,2025-12-25,Thiếu hoá đơn điện tử,Huy
+L00594,2025-11-22,Partner - Distributor,Beauty,Đà Nẵng,31,Lost,37200000,2025-12-24,Chọn đối thủ,Nam
+L00595,2025-11-14,Outbound,F&B,Cần Thơ,30,Demo,36000000,,,Linh
+L00596,2025-11-05,Event,Pharmacy,TP.HCM,28,Demo,13972000,,,Huy
+L00597,2025-11-21,Partner - Bank,F&B,Quy Nhơn,34,Demo,40800000,,,Quân
+L00598,2025-11-08,Outbound,Pharmacy,TP.HCM,29,Won,34800000,,,Nam
+L00599,2025-11-14,Partner - Bank,F&B,Đà Nẵng,18,Lost,21600000,2025-11-21,Thiếu tích hợp kế toán,Linh
+L00600,2025-11-04,Outbound,Beauty,Hà Nội,16,New,7984000,,,Huy
+L00601,2025-11-06,Outbound,F&B,Quy Nhơn,24,Demo,11976000,,,Quân
+L00602,2025-11-02,Outbound,F&B,Hải Phòng,3,Proposal,1497000,,,Linh
+L00603,2025-11-01,Inbound,F&B,TP.HCM,23,Won,11477000,2025-12-30,,Trang
+L00604,2025-11-24,Partner - Distributor,Retail,Cần Thơ,12,New,14400000,,,Quân
+L00605,2025-11-07,Inbound,F&B,Hà Nội,14,Demo,6986000,,,Huy
+L00606,2025-11-09,Inbound,Pharmacy,Cần Thơ,17,Won,8483000,,,Quân
+L00607,2025-11-05,Outbound,Retail,Hà Nội,22,Lost,10978000,2025-12-22,Chọn đối thủ,Nam
+L00608,2025-11-11,Inbound,Retail,TP.HCM,34,Proposal,16966000,,,Trang
+L00609,2025-11-20,Inbound,F&B,Cần Thơ,38,Demo,45600000,,,Trang
+L00610,2025-11-23,Partner - Distributor,Pharmacy,TP.HCM,30,Proposal,14970000,,,Nam
+L00611,2025-11-18,Outbound,F&B,Hà Nội,3,Lost,3600000,,Không phản hồi,Quân
+L00612,2025-11-22,Partner - Distributor,Pharmacy,Hà Nội,22,Lost,26400000,,Giá cao,Nam
+L00613,2025-11-27,Partner - Bank,F&B,TP.HCM,16,Lost,19200000,2025-12-21,Không phản hồi,Trang
+L00614,2025-11-29,Partner - Distributor,F&B,Vinh,20,Demo,24000000,,,Linh
+L00615,2025-11-22,Partner - Bank,Pharmacy,TP.HCM,20,Won,24000000,2025-12-13,,Nam
+L00616,2025-11-08,Outbound,Retail,Hà Nội,28,Lost,33600000,2025-12-22,Không phản hồi,Nam
+L00617,2025-11-22,Outbound,Retail,Đà Nẵng,35,New,17465000,,,Quân
+L00618,2025-11-14,Partner - Bank,Beauty,Buôn Ma Thuột,34,Won,40800000,2025-12-13,,Quân
+L00619,2025-11-02,Partner - Distributor,Beauty,Hải Phòng,32,New,38400000,,,Quân
+L00620,2025-11-27,Inbound,Pharmacy,Hải Phòng,22,Proposal,26400000,,,Huy
+L00621,2025-11-15,Event,Retail,TP.HCM,32,Lost,38400000,,Không phản hồi,Nam
+L00622,2025-11-01,Outbound,Beauty,Hà Nội,27,Lost,13473000,2025-12-15,Thiếu hoá đơn điện tử,Nam
+L00623,2025-11-25,Inbound,F&B,TP.HCM,3,Lost,3600000,,Chọn đối thủ,Linh
+L00624,2025-11-28,Event,Beauty,TP.HCM,13,Lost,15600000,,Thiếu hoá đơn điện tử,Linh
+L00625,2025-11-23,Event,F&B,Hà Nội,9,Won,4491000,,,Trang
+L00626,2025-11-14,Outbound,Retail,Hà Nội,13,Lost,6487000,,Giá cao,Quân
+L00627,2025-11-07,Partner - Distributor,Pharmacy,Hà Nội,11,Lost,13200000,2025-12-05,Thiếu tích hợp kế toán,Quân
+L00628,2025-11-26,Inbound,Retail,Cần Thơ,11,Lost,5489000,,Không phản hồi,Quân
+L00629,2025-11-13,Outbound,Retail,Hà Nội,35,Lost,17465000,2025-12-19,Chọn đối thủ,Nam
+L00630,2025-11-01,Outbound,Retail,Cần Thơ,10,Lost,4990000,2025-12-29,Giá cao,Linh
+L00631,2025-11-08,Partner - Bank,Retail,Hà Nội,23,Demo,11477000,,,Trang
+L00632,2025-11-18,Partner - Distributor,F&B,Buôn Ma Thuột,32,Lost,15968000,2025-12-01,Thiếu hoá đơn điện tử,Trang
+L00633,2025-11-01,Outbound,Retail,Cần Thơ,8,Lost,3992000,2025-12-05,Chọn đối thủ,Trang
+L00634,2025-11-11,Partner - Distributor,Pharmacy,Hải Phòng,32,Won,38400000,2025-12-30,,Linh
+L00635,2025-11-09,Partner - Distributor,Retail,Hà Nội,19,Won,9481000,2025-12-13,,Huy
+L00636,2025-11-10,Event,Beauty,Đà Nẵng,19,Won,9481000,,,Quân
+L00637,2025-11-09,Event,Pharmacy,Hà Nội,10,Lost,12000000,,Chọn đối thủ,Huy
+L00638,2025-11-18,Inbound,F&B,Nha Trang,35,Demo,42000000,,,Trang
+L00639,2025-11-14,Inbound,F&B,Hà Nội,36,Lost,17964000,,Giá cao,Linh
+L00640,2025-11-15,Partner - Bank,Pharmacy,Huế,20,Lost,24000000,2025-12-25,Chọn đối thủ,Quân
+L00641,2025-11-22,Partner - Bank,Beauty,Hà Nội,9,Qualified,10800000,,,Nam
+L00642,2025-11-08,Outbound,F&B,Vinh,36,Proposal,17964000,,,Huy
+L00643,2025-11-16,Inbound,Retail,Hà Nội,9,Qualified,4491000,,,Trang
+L00644,2025-11-16,Partner - Bank,Retail,TP.HCM,16,Lost,7984000,2025-12-11,Thiếu hoá đơn điện tử,Nam
+L00645,2025-12-17,Event,F&B,TP.HCM,5,Lost,2495000,,Thiếu hoá đơn điện tử,Huy
+L00646,2025-12-15,Outbound,Retail,Buôn Ma Thuột,10,Qualified,12000000,,,Trang
+L00647,2025-12-22,Event,Beauty,Đà Nẵng,36,New,17964000,,,Linh
+L00648,2025-12-21,Inbound,F&B,Vinh,26,Proposal,12974000,,,Trang
+L00649,2025-12-10,Inbound,Beauty,TP.HCM,9,Lost,4491000,,Thiếu tích hợp kế toán,Trang
+L00650,2025-12-14,Partner - Distributor,F&B,Hà Nội,17,Lost,8483000,,Thiếu hoá đơn điện tử,Huy
+L00651,2025-12-23,Outbound,Pharmacy,Buôn Ma Thuột,18,Proposal,8982000,,,Huy
+L00652,2025-12-17,Outbound,Retail,Đà Nẵng,13,Qualified,15600000,,,Huy
+L00653,2025-12-31,Outbound,F&B,TP.HCM,31,Proposal,37200000,,,Trang
+L00654,2025-12-25,Event,F&B,Huế,39,Lost,46800000,,Không phản hồi,Linh
+L00655,2025-12-19,Partner - Bank,Retail,TP.HCM,33,Lost,16467000,,Không phản hồi,Nam
+L00656,2025-12-17,Partner - Bank,F&B,Huế,16,Lost,19200000,,Thiếu hoá đơn điện tử,Huy
+L00657,2025-12-15,Outbound,F&B,Quy Nhơn,5,Proposal,6000000,,,Nam
+L00658,2025-12-27,Outbound,Pharmacy,Hà Nội,34,Lost,16966000,,Không phản hồi,Nam
+L00659,2025-12-30,Inbound,F&B,Huế,28,Won,33600000,,,Linh
+L00660,2025-12-13,Outbound,Retail,TP.HCM,12,Qualified,5988000,,,Linh
+L00661,2025-12-29,Outbound,Beauty,Nha Trang,36,Demo,43200000,,,Quân
+L00662,2025-12-23,Partner - Bank,Pharmacy,Quy Nhơn,7,Demo,3493000,,,Quân
+L00663,2025-12-06,Partner - Bank,Retail,TP.HCM,39,Lost,19461000,2025-12-18,Giá cao,Linh
+L00664,2025-12-02,Inbound,Retail,Vinh,18,Demo,8982000,,,Trang
+L00665,2025-12-23,Inbound,F&B,Hà Nội,12,Qualified,5988000,,,Linh
+L00666,2025-12-04,Event,Pharmacy,Hà Nội,21,Won,10479000,,,Linh
+L00667,2025-12-06,Outbound,Retail,Hải Phòng,34,Proposal,16966000,,,Trang
+L00668,2025-12-18,Partner - Bank,F&B,Hà Nội,30,Qualified,36000000,,,Nam
+L00669,2025-12-31,Outbound,Retail,Hà Nội,34,Lost,40800000,,Thiếu hoá đơn điện tử,Nam
+L00670,2025-12-23,Partner - Bank,Pharmacy,Quy Nhơn,27,Won,13473000,,,Nam
+L00671,2025-12-01,Partner - Distributor,F&B,Đà Nẵng,25,Proposal,12475000,,,Nam
+L00672,2025-12-30,Inbound,Beauty,Hải Phòng,40,Qualified,48000000,,,Trang
+L00673,2025-12-28,Inbound,Retail,Cần Thơ,32,New,38400000,,,Trang
+L00674,2025-12-01,Inbound,F&B,TP.HCM,13,Won,6487000,,,Linh
+L00675,2025-12-29,Partner - Distributor,Pharmacy,Quy Nhơn,26,Lost,31200000,,Giá cao,Trang
+L00676,2025-12-13,Inbound,Pharmacy,Hải Phòng,4,Won,4800000,,,Quân
+L00677,2025-12-17,Partner - Distributor,F&B,Hà Nội,27,Demo,32400000,,,Linh
+L00678,2025-12-13,Event,Retail,TP.HCM,19,Demo,9481000,,,Huy
+L00679,2025-12-04,Inbound,F&B,Hải Phòng,30,Proposal,36000000,,,Trang
+L00680,2025-12-27,Outbound,Retail,Hà Nội,26,Demo,31200000,,,Trang
+L00681,2025-12-30,Outbound,Retail,Hải Phòng,3,Lost,3600000,,Không phản hồi,Linh
+L00682,2025-12-16,Inbound,Pharmacy,TP.HCM,22,Demo,10978000,,,Nam
+L00683,2025-12-25,Event,Pharmacy,TP.HCM,23,New,11477000,,,Huy
+L00684,2025-12-28,Outbound,Beauty,Đà Nẵng,33,Qualified,39600000,,,Linh
+L00685,2025-12-31,Outbound,F&B,Quy Nhơn,30,Qualified,36000000,,,Linh
+L00686,2025-12-18,Outbound,Pharmacy,TP.HCM,13,Demo,15600000,,,Trang
+L00687,2025-12-14,Inbound,Pharmacy,Hải Phòng,39,Lost,19461000,,Chọn đối thủ,Linh
+L00688,2025-12-31,Partner - Bank,Retail,Cần Thơ,28,New,13972000,,,Huy
+L00689,2025-12-29,Partner - Bank,F&B,TP.HCM,30,Lost,14970000,,Chọn đối thủ,Huy
+L00690,2025-12-05,Event,Retail,TP.HCM,19,Lost,22800000,,Chọn đối thủ,Quân
+L00691,2025-12-02,Event,Beauty,Hà Nội,8,Won,9600000,,,Huy
+L00692,2025-12-20,Event,F&B,Đà Nẵng,3,Demo,1497000,,,Linh
+L00693,2025-12-08,Event,F&B,TP.HCM,39,Proposal,19461000,,,Quân
+L00694,2025-12-31,Partner - Distributor,Beauty,TP.HCM,23,Lost,27600000,,Chọn đối thủ,Trang
+L00695,2025-12-14,Outbound,Retail,Hà Nội,12,Demo,5988000,,,Linh
+L00696,2025-12-31,Event,Retail,Hà Nội,20,Lost,9980000,,Thiếu hoá đơn điện tử,Quân
+L00697,2025-12-03,Partner - Bank,Retail,Hà Nội,24,Proposal,11976000,,,Linh

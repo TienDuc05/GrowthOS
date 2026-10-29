@@ -1,0 +1,7 @@
+partner_id,name,type,city,commission_rate
+P01,NH Phương Đông,Bank,TP.HCM,0.15
+P02,NH Sông Hồng,Bank,Hà Nội,0.15
+P03,Phân phối Minh Phát,Distributor,TP.HCM,0.2
+P04,Phân phối Bắc Hà,Distributor,Hà Nội,0.2
+P05,Kế toán An Tâm,Accounting firm,Đà Nẵng,0.25
+P06,Kế toán Sao Việt,Accounting firm,Cần Thơ,0.25
